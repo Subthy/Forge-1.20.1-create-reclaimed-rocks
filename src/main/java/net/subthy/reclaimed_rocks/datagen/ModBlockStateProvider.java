@@ -22,7 +22,7 @@ public class ModBlockStateProvider extends BlockStateProvider {
 
         slabBlock(((SlabBlock) ModBlocks.DOLOMITE_SLAB.get()), blockTexture(ModBlocks.DOLOMITE_BLOCK.get()), blockTexture(ModBlocks.DOLOMITE_BLOCK.get()));
 
-        blockItem(ModBlocks.DOLOMITE_SLAB);;
+        blockItem(ModBlocks.DOLOMITE_SLAB);
     }
 
     private void blockItem(RegistryObject<Block> blockRegistryObject, String appendix) {
