@@ -1,0 +1,10 @@
+// 1.20.1	2023-10-21T21:15:19.754422	Block States: reclaimed_rocks
+00c04366fd865a5edca8672343c01794cdc304c2 assets/reclaimed_rocks/blockstates/dolomite_block.json
+3ecc6bd5ec3af97acb20bf86bff80b45cd093cd6 assets/reclaimed_rocks/blockstates/dolomite_brick.json
+3badc275300704f46df79a32833867b5315e02eb assets/reclaimed_rocks/blockstates/dolomite_slab.json
+52671cb9fc382f2eeaa78f34ff75b0bbd5bc9fad assets/reclaimed_rocks/models/block/dolomite_block.json
+8446d15034f9096d482e5b4380c62606a1d63e59 assets/reclaimed_rocks/models/block/dolomite_brick.json
+2e61691f3fd4a6cffd93474ef51c14e2fb58910b assets/reclaimed_rocks/models/block/dolomite_slab.json
+2949805226a9ca7a43480d3f2c043aec58b8adea assets/reclaimed_rocks/models/block/dolomite_slab_top.json
+45c7cdb02fe96b4fa2fc335e35461388a7bd6ed2 assets/reclaimed_rocks/models/item/dolomite_block.json
+a2379e436f160b2dd1a5d410cece887ecc4ef836 assets/reclaimed_rocks/models/item/dolomite_brick.json
