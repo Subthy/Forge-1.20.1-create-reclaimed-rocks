@@ -11,7 +11,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "reclaimed_rocks:dolomite_block"
+          "name": "reclaimed_rocks:dolomite_cobblestone"
         }
       ],
       "rolls": 1.0

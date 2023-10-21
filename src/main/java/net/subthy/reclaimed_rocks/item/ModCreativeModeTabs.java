@@ -19,8 +19,9 @@ public class ModCreativeModeTabs {
                     .title(Component.translatable("creativetab.reclaimed_rocks_tab"))
                     .displayItems((displayParameters, output) -> {
                         output.accept(ModBlocks.DOLOMITE_BLOCK.get());
-                        output.accept(ModBlocks.DOLOMITE_BRICK.get());
+                        output.accept(ModBlocks.DOLOMITE_BRICKS.get());
                         output.accept(ModBlocks.DOLOMITE_SLAB.get());
+                        output.accept(ModBlocks.DOLOMITE_STAIRS.get());
                     }).build());
 
 

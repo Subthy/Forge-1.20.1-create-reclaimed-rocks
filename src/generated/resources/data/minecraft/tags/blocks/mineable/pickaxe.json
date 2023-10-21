@@ -1,7 +1,8 @@
 {
   "values": [
     "reclaimed_rocks:dolomite_block",
-    "reclaimed_rocks:dolomite_brick",
-    "reclaimed_rocks:dolomite_slab"
+    "reclaimed_rocks:dolomite_bricks",
+    "reclaimed_rocks:dolomite_slab",
+    "reclaimed_rocks:dolomite_stairs"
   ]
 }

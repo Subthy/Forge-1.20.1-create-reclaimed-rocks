@@ -22,8 +22,9 @@ public class ModBlockTagGenerator extends BlockTagsProvider {
     protected void addTags(HolderLookup.Provider pProvider) {
         this.tag(BlockTags.MINEABLE_WITH_PICKAXE)
                 .add(ModBlocks.DOLOMITE_BLOCK.get(),
-                        ModBlocks.DOLOMITE_BRICK.get(),
-                        ModBlocks.DOLOMITE_SLAB.get()
+                        ModBlocks.DOLOMITE_BRICKS.get(),
+                        ModBlocks.DOLOMITE_SLAB.get(),
+                        ModBlocks.DOLOMITE_STAIRS.get()
                 );
 
     }

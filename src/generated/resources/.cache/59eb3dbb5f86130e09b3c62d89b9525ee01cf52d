@@ -1,4 +1,6 @@
-// 1.20.1	2023-10-21T21:15:19.7534211	Loot Tables
-2aadb2c9b743b127eb57646be9f1bd6cd64dbbad data/reclaimed_rocks/loot_tables/blocks/dolomite_block.json
-34cf567d4ee9df2cd61e1078554d29a8854092d5 data/reclaimed_rocks/loot_tables/blocks/dolomite_brick.json
-189eb96843e90642ed8f092efb5ca52d0c79e377 data/reclaimed_rocks/loot_tables/blocks/dolomite_slab.json
+// 1.20.1	2023-10-21T23:05:49.1016312	Loot Tables
+00ac5b9072cf5a2943288ba70f80051490a378f4 data/reclaimed_rocks/loot_tables/blocks/dolomite_block.json
+334eeb81a4cfab43171d41f736803c6cac4dc7fc data/reclaimed_rocks/loot_tables/blocks/dolomite_bricks.json
+737f91f9a3acec80a30796f90c13d2ceb58e0c1c data/reclaimed_rocks/loot_tables/blocks/dolomite_cobblestone.json
+6665a2fc86c7f460528058320ee87e023377b457 data/reclaimed_rocks/loot_tables/blocks/dolomite_slab.json
+61ccc31e58a800c738cbf97ae507c818a55e33eb data/reclaimed_rocks/loot_tables/blocks/dolomite_stairs.json

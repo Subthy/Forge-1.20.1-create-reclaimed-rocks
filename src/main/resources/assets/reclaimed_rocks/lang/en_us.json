@@ -4,5 +4,7 @@
   "block.reclaimed_rocks.dolomite_block": "Dolomite Block",
   "block.reclaimed_rocks.dolomite_brick": "Dolomite Brick",
 
-  "block.reclaimed_rocks.dolomite_slab": "Dolomite Slab"
+  "block.reclaimed_rocks.dolomite_slab": "Dolomite Slab",
+
+  "block.reclaimed_rocks.dolomite_stairs": "Dolomite Stairs"
 }

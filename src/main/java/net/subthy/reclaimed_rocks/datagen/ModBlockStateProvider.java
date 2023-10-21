@@ -18,15 +18,16 @@ public class ModBlockStateProvider extends BlockStateProvider {
     @Override
     protected void registerStatesAndModels() {
         blockWithItem(ModBlocks.DOLOMITE_BLOCK);
-        blockWithItem(ModBlocks.DOLOMITE_BRICK);
+        blockWithItem(ModBlocks.DOLOMITE_BRICKS);
 
         slabBlock(((SlabBlock) ModBlocks.DOLOMITE_SLAB.get()), blockTexture(ModBlocks.DOLOMITE_BLOCK.get()), blockTexture(ModBlocks.DOLOMITE_BLOCK.get()));
-
         blockItem(ModBlocks.DOLOMITE_SLAB);
+
+        stairsBlock((StairBlock) ModBlocks.DOLOMITE_STAIRS.get(), blockTexture(ModBlocks.DOLOMITE_BLOCK.get()));
     }
 
-    private void blockItem(RegistryObject<Block> blockRegistryObject, String appendix) {
-        simpleBlockItem(blockRegistryObject.get(), new ModelFile.UncheckedModelFile("reclaimed_rocks:block/" + ForgeRegistries.BLOCKS.getKey(blockRegistryObject.get()).getPath() + appendix));
+    private void blockItem(RegistryObject<Block> blockRegistryObject) {
+        simpleBlockItem(blockRegistryObject.get(), new ModelFile.UncheckedModelFile("reclaimed_rocks:block/" + ForgeRegistries.BLOCKS.getKey(blockRegistryObject.get()).getPath()));
     }
 
     private void blockWithItem(RegistryObject<Block> blockRegistryObject) {
