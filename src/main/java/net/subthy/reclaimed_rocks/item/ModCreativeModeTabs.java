@@ -22,6 +22,23 @@ public class ModCreativeModeTabs {
                         output.accept(ModBlocks.DOLOMITE_BRICKS.get());
                         output.accept(ModBlocks.DOLOMITE_SLAB.get());
                         output.accept(ModBlocks.DOLOMITE_STAIRS.get());
+                        output.accept(ModBlocks.DOLOMITE_COBBLESTONE.get());
+                        output.accept(ModBlocks.DOLOMITE_POLISHED_BLOCK.get());
+                        output.accept(ModBlocks.DOLOMITE_PAVED_BRICKS.get());
+                        output.accept(ModBlocks.DOLOMITE_FANCY_BRICKS.get());
+                        output.accept(ModBlocks.DOLOMITE_POLISHED_SLAB.get());
+                        output.accept(ModBlocks.DOLOMITE_PILLAR.get());
+                        output.accept(ModBlocks.DOLOMITE_POLISHED_STAIRS.get());
+                        output.accept(ModBlocks.DOLOMITE_COBBLESTONE_STAIRS.get());
+                        output.accept(ModBlocks.DOLOMITE_COBBLESTONE_SLAB.get());
+                        output.accept(ModBlocks.DOLOMITE_FANCY_BRICK_STAIRS.get());
+                        output.accept(ModBlocks.DOLOMITE_PAVED_BRICK_STAIRS.get());
+                        output.accept(ModBlocks.DOLOMITE_BRICK_STAIRS.get());
+                        output.accept(ModBlocks.DOLOMITE_BRICK_SLAB.get());
+                        output.accept(ModBlocks.DOLOMITE_FANCY_BRICK_SLAB.get());
+                        output.accept(ModBlocks.DOLOMITE_CHISELED_BRICKS.get());
+                        output.accept(ModBlocks.DOLOMITE_LAYERED_BLOCK.get());
+                        output.accept(ModBlocks.DOLOMITE_BRICK_WALL.get());
                     }).build());
 
 

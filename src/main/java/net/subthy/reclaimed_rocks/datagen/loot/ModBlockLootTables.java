@@ -19,16 +19,37 @@ public class ModBlockLootTables extends BlockLootSubProvider {
 
     @Override
     protected void generate() {
-        this.dropWhenSilkTouch(ModBlocks.DOLOMITE_BLOCK.get());
 
-        this.dropOther(ModBlocks.DOLOMITE_BLOCK.get(), ModBlocks.DOLOMITE_COBBLESTONE.get());
-
+        add(ModBlocks.DOLOMITE_BLOCK.get(), (arg) -> createSingleItemTableWithSilkTouch(arg, ModBlocks.DOLOMITE_COBBLESTONE.get()));
+        //Normal block
         this.dropSelf(ModBlocks.DOLOMITE_BRICKS.get());
         this.dropSelf(ModBlocks.DOLOMITE_COBBLESTONE.get());
-
+        this.dropSelf(ModBlocks.DOLOMITE_POLISHED_BLOCK.get());
+        this.dropSelf(ModBlocks.DOLOMITE_PAVED_BRICKS.get());
+        this.dropSelf(ModBlocks.DOLOMITE_FANCY_BRICKS.get());
+        this.dropSelf(ModBlocks.DOLOMITE_PILLAR.get());
+        this.dropSelf(ModBlocks.DOLOMITE_CHISELED_BRICKS.get());
+        this.dropSelf(ModBlocks.DOLOMITE_LAYERED_BLOCK.get());
+        // Slab
         this.add(ModBlocks.DOLOMITE_SLAB.get(),
                 block -> createSlabItemTable(ModBlocks.DOLOMITE_SLAB.get()));
+        this.add(ModBlocks.DOLOMITE_COBBLESTONE_SLAB.get(),
+                block -> createSlabItemTable(ModBlocks.DOLOMITE_COBBLESTONE_SLAB.get()));
+        this.add(ModBlocks.DOLOMITE_POLISHED_SLAB.get(),
+                block -> createSlabItemTable(ModBlocks.DOLOMITE_POLISHED_SLAB.get()));
+        this.add(ModBlocks.DOLOMITE_BRICK_SLAB.get(),
+                block -> createSlabItemTable(ModBlocks.DOLOMITE_BRICK_SLAB.get()));
+        this.add(ModBlocks.DOLOMITE_FANCY_BRICK_SLAB.get(),
+                block -> createSlabItemTable(ModBlocks.DOLOMITE_FANCY_BRICK_SLAB.get()));
+        //Stair
         this.dropSelf(ModBlocks.DOLOMITE_STAIRS.get());
+        this.dropSelf(ModBlocks.DOLOMITE_POLISHED_STAIRS.get());
+        this.dropSelf(ModBlocks.DOLOMITE_COBBLESTONE_STAIRS.get());
+        this.dropSelf(ModBlocks.DOLOMITE_BRICK_STAIRS.get());
+        this.dropSelf(ModBlocks.DOLOMITE_FANCY_BRICK_STAIRS.get());
+        this.dropSelf(ModBlocks.DOLOMITE_PAVED_BRICK_STAIRS.get());
+        // Wall
+        this.dropSelf(ModBlocks.DOLOMITE_BRICK_WALL.get());
 
     }
 

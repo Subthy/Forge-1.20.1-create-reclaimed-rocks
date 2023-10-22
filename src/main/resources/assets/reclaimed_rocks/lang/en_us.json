@@ -2,9 +2,15 @@
   "creativetab.reclaimed_rocks_tab": "Reclaimed Rocks",
 
   "block.reclaimed_rocks.dolomite_block": "Dolomite Block",
-  "block.reclaimed_rocks.dolomite_brick": "Dolomite Brick",
+  "block.reclaimed_rocks.dolomite_cobblestone": "Dolomite Cobblestone",
+  "block.reclaimed_rocks.dolomite_bricks": "Dolomite Bricks",
+  "block.reclaimed_rocks.dolomite_polished_block": "Dolomite Polished Block",
+  "block.reclaimed_rocks.dolomite_paved_bricks": "Dolomite Paved Bricks",
+  "block.reclaimed_rocks.dolomite_fancy_bricks": "Dolomite Fancy Bricks",
+  "block.reclaimed_rocks.dolomite_pillar": "Dolomite Pillar",
 
   "block.reclaimed_rocks.dolomite_slab": "Dolomite Slab",
+  "block.reclaimed_rocks.dolomite_polished_slab": "Dolomite Polished Slab",
 
   "block.reclaimed_rocks.dolomite_stairs": "Dolomite Stairs"
 }

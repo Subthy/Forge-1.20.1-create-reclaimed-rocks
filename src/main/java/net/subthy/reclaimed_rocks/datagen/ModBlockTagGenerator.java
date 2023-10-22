@@ -24,8 +24,26 @@ public class ModBlockTagGenerator extends BlockTagsProvider {
                 .add(ModBlocks.DOLOMITE_BLOCK.get(),
                         ModBlocks.DOLOMITE_BRICKS.get(),
                         ModBlocks.DOLOMITE_SLAB.get(),
-                        ModBlocks.DOLOMITE_STAIRS.get()
+                        ModBlocks.DOLOMITE_STAIRS.get(),
+                        ModBlocks.DOLOMITE_COBBLESTONE.get(),
+                        ModBlocks.DOLOMITE_POLISHED_BLOCK.get(),
+                        ModBlocks.DOLOMITE_FANCY_BRICKS.get(),
+                        ModBlocks.DOLOMITE_POLISHED_SLAB.get(),
+                        ModBlocks.DOLOMITE_PILLAR.get(),
+                        ModBlocks.DOLOMITE_POLISHED_STAIRS.get(),
+                        ModBlocks.DOLOMITE_COBBLESTONE_STAIRS.get(),
+                        ModBlocks.DOLOMITE_COBBLESTONE_SLAB.get(),
+                        ModBlocks.DOLOMITE_BRICK_STAIRS.get(),
+                        ModBlocks.DOLOMITE_FANCY_BRICK_STAIRS.get(),
+                        ModBlocks.DOLOMITE_PAVED_BRICK_STAIRS.get(),
+                        ModBlocks.DOLOMITE_BRICK_SLAB.get(),
+                        ModBlocks.DOLOMITE_FANCY_BRICK_SLAB.get(),
+                        ModBlocks.DOLOMITE_CHISELED_BRICKS.get(),
+                        ModBlocks.DOLOMITE_LAYERED_BLOCK.get(),
+                        ModBlocks.DOLOMITE_BRICK_WALL.get()
                 );
+        this.tag(BlockTags.WALLS)
+                .add(ModBlocks.DOLOMITE_BRICK_WALL.get());
 
     }
 

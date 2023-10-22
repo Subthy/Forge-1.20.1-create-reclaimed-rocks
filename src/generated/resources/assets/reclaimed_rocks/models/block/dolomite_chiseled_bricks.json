@@ -1,0 +1,9 @@
+{
+  "parent": "minecraft:block/orientable_with_bottom",
+  "textures": {
+    "bottom": "reclaimed_rocks:block/dolomite_chiseled_bricks_top",
+    "front": "reclaimed_rocks:block/dolomite_chiseled_bricks",
+    "side": "reclaimed_rocks:block/dolomite_chiseled_bricks",
+    "top": "reclaimed_rocks:block/dolomite_chiseled_bricks_top"
+  }
+}

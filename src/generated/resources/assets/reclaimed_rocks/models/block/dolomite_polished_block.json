@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "reclaimed_rocks:block/dolomite_polished_block"
+  }
+}

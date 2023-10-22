@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "reclaimed_rocks:block/dolomite_polished_slab"
+    },
+    "type=double": {
+      "model": "reclaimed_rocks:block/dolomite_polished_block"
+    },
+    "type=top": {
+      "model": "reclaimed_rocks:block/dolomite_polished_slab_top"
+    }
+  }
+}
