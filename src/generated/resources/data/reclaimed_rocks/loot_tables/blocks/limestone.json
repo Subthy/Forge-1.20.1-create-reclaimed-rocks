@@ -24,7 +24,7 @@
                   }
                 }
               ],
-              "name": "reclaimed_rocks:dolomite_block"
+              "name": "reclaimed_rocks:limestone"
             },
             {
               "type": "minecraft:item",
@@ -33,7 +33,7 @@
                   "condition": "minecraft:survives_explosion"
                 }
               ],
-              "name": "reclaimed_rocks:dolomite_cobblestone"
+              "name": "reclaimed_rocks:limestone_cobblestone"
             }
           ]
         }
@@ -41,5 +41,5 @@
       "rolls": 1.0
     }
   ],
-  "random_sequence": "reclaimed_rocks:blocks/dolomite_block"
+  "random_sequence": "reclaimed_rocks:blocks/limestone"
 }

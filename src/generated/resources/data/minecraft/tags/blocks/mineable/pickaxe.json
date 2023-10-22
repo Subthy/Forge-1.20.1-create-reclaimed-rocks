@@ -1,6 +1,6 @@
 {
   "values": [
-    "reclaimed_rocks:dolomite_block",
+    "reclaimed_rocks:dolomite",
     "reclaimed_rocks:dolomite_bricks",
     "reclaimed_rocks:dolomite_slab",
     "reclaimed_rocks:dolomite_stairs",
@@ -19,6 +19,18 @@
     "reclaimed_rocks:dolomite_fancy_brick_slab",
     "reclaimed_rocks:dolomite_chiseled_bricks",
     "reclaimed_rocks:dolomite_layered_block",
-    "reclaimed_rocks:dolomite_brick_wall"
+    "reclaimed_rocks:dolomite_brick_wall",
+    "reclaimed_rocks:dolomite_cobblestone_wall",
+    "reclaimed_rocks:dolomite_fancy_brick_wall",
+    "reclaimed_rocks:dolomite_polished_wall",
+    "reclaimed_rocks:dolomite_paved_brick_wall",
+    "reclaimed_rocks:limestone",
+    "reclaimed_rocks:limestone_cobblestone",
+    "reclaimed_rocks:limestone_bricks",
+    "reclaimed_rocks:limestone_pillar",
+    "reclaimed_rocks:limestone_chiseled_bricks",
+    "reclaimed_rocks:limestone_layered_block",
+    "reclaimed_rocks:limestone_polished_block",
+    "reclaimed_rocks:limestone_paved_bricks"
   ]
 }

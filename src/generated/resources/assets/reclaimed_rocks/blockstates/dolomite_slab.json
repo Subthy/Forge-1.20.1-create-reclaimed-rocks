@@ -4,7 +4,7 @@
       "model": "reclaimed_rocks:block/dolomite_slab"
     },
     "type=double": {
-      "model": "reclaimed_rocks:block/dolomite_block"
+      "model": "reclaimed_rocks:block/dolomite"
     },
     "type=top": {
       "model": "reclaimed_rocks:block/dolomite_slab_top"

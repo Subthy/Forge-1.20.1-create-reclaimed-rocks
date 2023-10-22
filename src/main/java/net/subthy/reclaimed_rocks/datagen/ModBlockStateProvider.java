@@ -19,30 +19,56 @@ public class ModBlockStateProvider extends BlockStateProvider {
     @Override
     protected void registerStatesAndModels() {
         //Normal Block
-        blockWithItem(ModBlocks.DOLOMITE_BLOCK);
+        blockWithItem(ModBlocks.DOLOMITE);
         blockWithItem(ModBlocks.DOLOMITE_BRICKS);
         blockWithItem(ModBlocks.DOLOMITE_COBBLESTONE);
         blockWithItem(ModBlocks.DOLOMITE_POLISHED_BLOCK);
         blockWithItem(ModBlocks.DOLOMITE_FANCY_BRICKS);
         blockWithItem(ModBlocks.DOLOMITE_LAYERED_BLOCK);
+        blockWithItem(ModBlocks.LIMESTONE);
+        blockWithItem(ModBlocks.LIMESTONE_BRICKS);
+        blockWithItem(ModBlocks.LIMESTONE_COBBLESTONE);
+        blockWithItem(ModBlocks.LIMESTONE_POLISHED_BLOCK);
+        blockWithItem(ModBlocks.LIMESTONE_FANCY_BRICKS);
+        blockWithItem(ModBlocks.LIMESTONE_LAYERED_BLOCK);
         // Block with side texture,top and bottom
         simpleBlockWithItem(ModBlocks.DOLOMITE_PAVED_BRICKS.get(), models().orientableWithBottom(ModBlocks.DOLOMITE_PAVED_BRICKS.getId().getPath(),
                 modLoc("block/dolomite_paved_bricks"),
                 modLoc("block/dolomite_paved_bricks"),
                 new ResourceLocation("reclaimed_rocks:block/dolomite_paved_bricks_top"),
                 modLoc("block/dolomite_paved_bricks_top")));
+
         simpleBlockWithItem(ModBlocks.DOLOMITE_PILLAR.get(), models().orientableWithBottom(ModBlocks.DOLOMITE_PILLAR.getId().getPath(),
                 modLoc("block/dolomite_pillar"),
                 modLoc("block/dolomite_pillar"),
                 new ResourceLocation("reclaimed_rocks:block/dolomite_pillar_top"),
                 modLoc("block/dolomite_pillar_top")));
+
         simpleBlockWithItem(ModBlocks.DOLOMITE_CHISELED_BRICKS.get(), models().orientableWithBottom(ModBlocks.DOLOMITE_CHISELED_BRICKS.getId().getPath(),
                 modLoc("block/dolomite_chiseled_bricks"),
                 modLoc("block/dolomite_chiseled_bricks"),
                 new ResourceLocation("reclaimed_rocks:block/dolomite_chiseled_bricks_top"),
                 modLoc("block/dolomite_chiseled_bricks_top")));
+
+        simpleBlockWithItem(ModBlocks.LIMESTONE_PAVED_BRICKS.get(), models().orientableWithBottom(ModBlocks.DOLOMITE_PAVED_BRICKS.getId().getPath(),
+                modLoc("block/limestone_paved_bricks"),
+                modLoc("block/limestone_paved_bricks"),
+                new ResourceLocation("reclaimed_rocks:block/limestone_paved_bricks_top"),
+                modLoc("block/limestone_paved_bricks_top")));
+
+        simpleBlockWithItem(ModBlocks.LIMESTONE_PILLAR.get(), models().orientableWithBottom(ModBlocks.DOLOMITE_PILLAR.getId().getPath(),
+                modLoc("block/limestone_pillar"),
+                modLoc("block/limestone_pillar"),
+                new ResourceLocation("reclaimed_rocks:block/limestone_pillar_top"),
+                modLoc("block/limestone_pillar_top")));
+
+        simpleBlockWithItem(ModBlocks.LIMESTONE_CHISELED_BRICKS.get(), models().orientableWithBottom(ModBlocks.DOLOMITE_CHISELED_BRICKS.getId().getPath(),
+                modLoc("block/limestone_chiseled_bricks"),
+                modLoc("block/limestone_chiseled_bricks"),
+                new ResourceLocation("reclaimed_rocks:block/limestone_chiseled_bricks_top"),
+                modLoc("block/limestone_chiseled_bricks_top")));
         // Slab
-        slabBlock(((SlabBlock) ModBlocks.DOLOMITE_SLAB.get()), blockTexture(ModBlocks.DOLOMITE_BLOCK.get()), blockTexture(ModBlocks.DOLOMITE_BLOCK.get()));
+        slabBlock(((SlabBlock) ModBlocks.DOLOMITE_SLAB.get()), blockTexture(ModBlocks.DOLOMITE.get()), blockTexture(ModBlocks.DOLOMITE.get()));
         blockItem(ModBlocks.DOLOMITE_SLAB);
         slabBlock(((SlabBlock) ModBlocks.DOLOMITE_POLISHED_SLAB.get()), blockTexture(ModBlocks.DOLOMITE_POLISHED_BLOCK.get()), blockTexture(ModBlocks.DOLOMITE_POLISHED_BLOCK.get()));
         blockItem(ModBlocks.DOLOMITE_POLISHED_SLAB);
@@ -53,7 +79,7 @@ public class ModBlockStateProvider extends BlockStateProvider {
         slabBlock(((SlabBlock) ModBlocks.DOLOMITE_FANCY_BRICK_SLAB.get()), blockTexture(ModBlocks.DOLOMITE_FANCY_BRICKS.get()), blockTexture(ModBlocks.DOLOMITE_FANCY_BRICKS.get()));
         blockItem(ModBlocks.DOLOMITE_FANCY_BRICK_SLAB);
         // Stairs
-        stairsBlock((StairBlock) ModBlocks.DOLOMITE_STAIRS.get(), blockTexture(ModBlocks.DOLOMITE_BLOCK.get()));
+        stairsBlock((StairBlock) ModBlocks.DOLOMITE_STAIRS.get(), blockTexture(ModBlocks.DOLOMITE.get()));
         blockItem(ModBlocks.DOLOMITE_STAIRS);
         stairsBlock((StairBlock) ModBlocks.DOLOMITE_POLISHED_STAIRS.get(), blockTexture(ModBlocks.DOLOMITE_POLISHED_BLOCK.get()));
         blockItem(ModBlocks.DOLOMITE_POLISHED_STAIRS);
@@ -67,6 +93,10 @@ public class ModBlockStateProvider extends BlockStateProvider {
         blockItem(ModBlocks.DOLOMITE_PAVED_BRICK_STAIRS);
         // Walls
         wallBlock((WallBlock) ModBlocks.DOLOMITE_BRICK_WALL.get(), blockTexture(ModBlocks.DOLOMITE_BRICKS.get()));
+        wallBlock((WallBlock) ModBlocks.DOLOMITE_PAVED_BRICK_WALL.get(), blockTexture(ModBlocks.DOLOMITE_PAVED_BRICKS.get()));
+        wallBlock((WallBlock) ModBlocks.DOLOMITE_POLISHED_WALL.get(), blockTexture(ModBlocks.DOLOMITE_POLISHED_BLOCK.get()));
+        wallBlock((WallBlock) ModBlocks.DOLOMITE_FANCY_BRICK_WALL.get(), blockTexture(ModBlocks.DOLOMITE_FANCY_BRICKS.get()));
+        wallBlock((WallBlock) ModBlocks.DOLOMITE_COBBLESTONE_WALL.get(), blockTexture(ModBlocks.DOLOMITE_COBBLESTONE.get()));
 
     }
 

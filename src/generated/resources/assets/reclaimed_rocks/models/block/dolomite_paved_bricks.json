@@ -1,9 +1,9 @@
 {
   "parent": "minecraft:block/orientable_with_bottom",
   "textures": {
-    "bottom": "reclaimed_rocks:block/dolomite_paved_bricks_top",
-    "front": "reclaimed_rocks:block/dolomite_paved_bricks",
-    "side": "reclaimed_rocks:block/dolomite_paved_bricks",
-    "top": "reclaimed_rocks:block/dolomite_paved_bricks_top"
+    "bottom": "reclaimed_rocks:block/limestone_paved_bricks_top",
+    "front": "reclaimed_rocks:block/limestone_paved_bricks",
+    "side": "reclaimed_rocks:block/limestone_paved_bricks",
+    "top": "reclaimed_rocks:block/limestone_paved_bricks_top"
   }
 }

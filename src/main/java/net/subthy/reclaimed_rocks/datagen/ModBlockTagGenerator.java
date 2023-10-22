@@ -21,7 +21,7 @@ public class ModBlockTagGenerator extends BlockTagsProvider {
     @Override
     protected void addTags(HolderLookup.Provider pProvider) {
         this.tag(BlockTags.MINEABLE_WITH_PICKAXE)
-                .add(ModBlocks.DOLOMITE_BLOCK.get(),
+                .add(ModBlocks.DOLOMITE.get(),
                         ModBlocks.DOLOMITE_BRICKS.get(),
                         ModBlocks.DOLOMITE_SLAB.get(),
                         ModBlocks.DOLOMITE_STAIRS.get(),
@@ -40,10 +40,28 @@ public class ModBlockTagGenerator extends BlockTagsProvider {
                         ModBlocks.DOLOMITE_FANCY_BRICK_SLAB.get(),
                         ModBlocks.DOLOMITE_CHISELED_BRICKS.get(),
                         ModBlocks.DOLOMITE_LAYERED_BLOCK.get(),
-                        ModBlocks.DOLOMITE_BRICK_WALL.get()
-                );
+                        ModBlocks.DOLOMITE_BRICK_WALL.get(),
+                        ModBlocks.DOLOMITE_COBBLESTONE_WALL.get(),
+                        ModBlocks.DOLOMITE_FANCY_BRICK_WALL.get(),
+                        ModBlocks.DOLOMITE_POLISHED_WALL.get(),
+                        ModBlocks.DOLOMITE_PAVED_BRICK_WALL.get(),
+                        ModBlocks.LIMESTONE.get(),
+                        ModBlocks.LIMESTONE_COBBLESTONE.get(),
+                        ModBlocks.LIMESTONE_BRICKS.get(),
+                        ModBlocks.LIMESTONE_PILLAR.get(),
+                        ModBlocks.LIMESTONE_CHISELED_BRICKS.get(),
+                        ModBlocks.LIMESTONE_LAYERED_BLOCK.get(),
+                        ModBlocks.LIMESTONE_POLISHED_BLOCK.get(),
+                        ModBlocks.LIMESTONE_PAVED_BRICKS.get()
+
+                        );
         this.tag(BlockTags.WALLS)
-                .add(ModBlocks.DOLOMITE_BRICK_WALL.get());
+                .add(ModBlocks.DOLOMITE_BRICK_WALL.get(),
+                        ModBlocks.DOLOMITE_COBBLESTONE_WALL.get(),
+                        ModBlocks.DOLOMITE_FANCY_BRICK_WALL.get(),
+                        ModBlocks.DOLOMITE_POLISHED_WALL.get(),
+                        ModBlocks.DOLOMITE_PAVED_BRICK_WALL.get()
+                );
 
     }
 

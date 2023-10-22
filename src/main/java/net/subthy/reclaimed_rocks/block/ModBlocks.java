@@ -20,7 +20,8 @@ public class ModBlocks {
             DeferredRegister.create(ForgeRegistries.BLOCKS, ReclaimedRocksMod.MOD_ID);
 
     // Blocks
-    public static final RegistryObject<Block> DOLOMITE_BLOCK = registerBlock("dolomite_block",
+        // Dolomite
+    public static final RegistryObject<Block> DOLOMITE = registerBlock("dolomite",
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.STONE)));
     public static final RegistryObject<Block> DOLOMITE_LAYERED_BLOCK = registerBlock("dolomite_layered_block",
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.STONE)));
@@ -38,6 +39,26 @@ public class ModBlocks {
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.COBBLESTONE)));
     public static final RegistryObject<Block> DOLOMITE_CHISELED_BRICKS = registerBlock("dolomite_chiseled_bricks",
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.STONE_BRICKS)));
+        // Limestone
+        public static final RegistryObject<Block> LIMESTONE = registerBlock("limestone",
+                () -> new Block(BlockBehaviour.Properties.copy(Blocks.STONE)));
+    public static final RegistryObject<Block> LIMESTONE_COBBLESTONE = registerBlock("limestone_cobblestone",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.STONE)));
+    public static final RegistryObject<Block> LIMESTONE_POLISHED_BLOCK = registerBlock("limestone_polished_block",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.STONE)));
+    public static final RegistryObject<Block> LIMESTONE_BRICKS = registerBlock("limestone_bricks",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.STONE)));
+    public static final RegistryObject<Block> LIMESTONE_FANCY_BRICKS = registerBlock("limestone_fancy_bricks",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.STONE)));
+    public static final RegistryObject<Block> LIMESTONE_PILLAR = registerBlock("limestone_pillar",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.STONE)));
+    public static final RegistryObject<Block> LIMESTONE_PAVED_BRICKS = registerBlock("limestone_paved_bricks",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.STONE)));
+    public static final RegistryObject<Block> LIMESTONE_LAYERED_BLOCK = registerBlock("limestone_layered_block",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.STONE)));
+    public static final RegistryObject<Block> LIMESTONE_CHISELED_BRICKS = registerBlock("limestone_chiseled_bricks",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.STONE_BRICKS)));
+
 
     // Slabs
     public static final RegistryObject<Block> DOLOMITE_SLAB = registerBlock("dolomite_slab",
@@ -53,16 +74,16 @@ public class ModBlocks {
 
     // Stairs
     public static final RegistryObject<Block> DOLOMITE_STAIRS = registerBlock("dolomite_stairs",
-            () -> new StairBlock(() -> ModBlocks.DOLOMITE_BLOCK.get().defaultBlockState(),
+            () -> new StairBlock(() -> ModBlocks.DOLOMITE.get().defaultBlockState(),
                     BlockBehaviour.Properties.copy(Blocks.GRANITE_STAIRS).sound(SoundType.STONE)));
     public static final RegistryObject<Block> DOLOMITE_BRICK_STAIRS = registerBlock("dolomite_brick_stairs",
-            () -> new StairBlock(() -> ModBlocks.DOLOMITE_BLOCK.get().defaultBlockState(),
+            () -> new StairBlock(() -> ModBlocks.DOLOMITE.get().defaultBlockState(),
                     BlockBehaviour.Properties.copy(Blocks.GRANITE_STAIRS).sound(SoundType.STONE)));
     public static final RegistryObject<Block> DOLOMITE_FANCY_BRICK_STAIRS = registerBlock("dolomite_fancy_brick_stairs",
-            () -> new StairBlock(() -> ModBlocks.DOLOMITE_BLOCK.get().defaultBlockState(),
+            () -> new StairBlock(() -> ModBlocks.DOLOMITE.get().defaultBlockState(),
                     BlockBehaviour.Properties.copy(Blocks.GRANITE_STAIRS).sound(SoundType.STONE)));
     public static final RegistryObject<Block> DOLOMITE_PAVED_BRICK_STAIRS = registerBlock("dolomite_paved_brick_stairs",
-            () -> new StairBlock(() -> ModBlocks.DOLOMITE_BLOCK.get().defaultBlockState(),
+            () -> new StairBlock(() -> ModBlocks.DOLOMITE.get().defaultBlockState(),
                     BlockBehaviour.Properties.copy(Blocks.GRANITE_STAIRS).sound(SoundType.STONE)));
     public static final RegistryObject<Block> DOLOMITE_COBBLESTONE_STAIRS = registerBlock("dolomite_cobblestone_stairs",
             () -> new StairBlock(() -> ModBlocks.DOLOMITE_COBBLESTONE.get().defaultBlockState(),
@@ -73,7 +94,15 @@ public class ModBlocks {
 
     // Walls
     public static final RegistryObject<Block> DOLOMITE_BRICK_WALL = registerBlock("dolomite_brick_wall",
-            () -> new WallBlock(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK)));
+            () -> new WallBlock(BlockBehaviour.Properties.copy(Blocks.STONE_BRICK_WALL)));
+    public static final RegistryObject<Block> DOLOMITE_COBBLESTONE_WALL = registerBlock("dolomite_cobblestone_wall",
+            () -> new WallBlock(BlockBehaviour.Properties.copy(Blocks.STONE_BRICK_WALL)));
+    public static final RegistryObject<Block> DOLOMITE_POLISHED_WALL = registerBlock("dolomite_polished_wall",
+            () -> new WallBlock(BlockBehaviour.Properties.copy(Blocks.STONE_BRICK_WALL)));
+    public static final RegistryObject<Block> DOLOMITE_FANCY_BRICK_WALL = registerBlock("dolomite_fancy_brick_wall",
+            () -> new WallBlock(BlockBehaviour.Properties.copy(Blocks.STONE_BRICK_WALL)));
+    public static final RegistryObject<Block> DOLOMITE_PAVED_BRICK_WALL = registerBlock("dolomite_paved_brick_wall",
+            () -> new WallBlock(BlockBehaviour.Properties.copy(Blocks.STONE_BRICK_WALL)));
 
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block) {
         RegistryObject<T> toReturn = BLOCKS.register(name, block);

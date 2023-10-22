@@ -1,16 +1,33 @@
 {
   "creativetab.reclaimed_rocks_tab": "Reclaimed Rocks",
 
-  "block.reclaimed_rocks.dolomite_block": "Dolomite Block",
+  "block.reclaimed_rocks.dolomite": "Dolomite",
   "block.reclaimed_rocks.dolomite_cobblestone": "Dolomite Cobblestone",
   "block.reclaimed_rocks.dolomite_bricks": "Dolomite Bricks",
   "block.reclaimed_rocks.dolomite_polished_block": "Dolomite Polished Block",
   "block.reclaimed_rocks.dolomite_paved_bricks": "Dolomite Paved Bricks",
   "block.reclaimed_rocks.dolomite_fancy_bricks": "Dolomite Fancy Bricks",
   "block.reclaimed_rocks.dolomite_pillar": "Dolomite Pillar",
+  "block.reclaimed_rocks.dolomite_chiseled_bricks": "Dolomite Chiseled Bricks",
+  "block.reclaimed_rocks.dolomite_layered_block": "Dolomite Layered Block",
 
   "block.reclaimed_rocks.dolomite_slab": "Dolomite Slab",
   "block.reclaimed_rocks.dolomite_polished_slab": "Dolomite Polished Slab",
+  "block.reclaimed_rocks.dolomite_cobblestone_slab": "Dolomite Cobblestone Slab",
+  "block.reclaimed_rocks.dolomite_brick_slab": "Dolomite Brick Slab",
+  "block.reclaimed_rocks.dolomite_fancy_brick_slab": "Dolomite Fancy Brick Slab",
 
-  "block.reclaimed_rocks.dolomite_stairs": "Dolomite Stairs"
+  "block.reclaimed_rocks.dolomite_brick_wall": "Dolomite Brick Wall",
+  "block.reclaimed_rocks.dolomite_polished_wall": "Dolomite Polished Wall",
+  "block.reclaimed_rocks.dolomite_paved_brick_wall": "Dolomite Paved Brick Wall",
+  "block.reclaimed_rocks.dolomite_cobblestone_wall": "Dolomite Cobblestone Wall",
+  "block.reclaimed_rocks.dolomite_fancy_brick_wall": "Dolomite Fancy Brick Wall",
+
+
+  "block.reclaimed_rocks.dolomite_stairs": "Dolomite Stairs",
+  "block.reclaimed_rocks.dolomite_polished_stairs": "Dolomite Polished Stairs",
+  "block.reclaimed_rocks.dolomite_cobblestone_stairs": "Dolomite Cobblestone Stairs",
+  "block.reclaimed_rocks.dolomite_fancy_brick_stairs": "Dolomite Fancy Brick Stairs",
+  "block.reclaimed_rocks.dolomite_paved_brick_stairs": "Dolomite Paved Brick Stairs",
+  "block.reclaimed_rocks.dolomite_brick_stairs": "Dolomite Brick Stairs"
 }

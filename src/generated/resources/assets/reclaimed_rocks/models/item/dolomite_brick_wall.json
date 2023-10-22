@@ -1,3 +1,6 @@
 {
-  "parent": "reclaimed_rocks:block/dolomite_brick_wall"
+  "parent": "minecraft:block/wall_inventory",
+  "textures": {
+    "wall": "reclaimed_rocks:block/dolomite_bricks"
+  }
 }

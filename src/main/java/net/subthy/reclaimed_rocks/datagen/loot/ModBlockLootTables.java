@@ -20,7 +20,8 @@ public class ModBlockLootTables extends BlockLootSubProvider {
     @Override
     protected void generate() {
 
-        add(ModBlocks.DOLOMITE_BLOCK.get(), (arg) -> createSingleItemTableWithSilkTouch(arg, ModBlocks.DOLOMITE_COBBLESTONE.get()));
+        add(ModBlocks.DOLOMITE.get(), (arg) -> createSingleItemTableWithSilkTouch(arg, ModBlocks.DOLOMITE_COBBLESTONE.get()));
+        add(ModBlocks.LIMESTONE.get(), (arg) -> createSingleItemTableWithSilkTouch(arg, ModBlocks.LIMESTONE_COBBLESTONE.get()));
         //Normal block
         this.dropSelf(ModBlocks.DOLOMITE_BRICKS.get());
         this.dropSelf(ModBlocks.DOLOMITE_COBBLESTONE.get());
@@ -30,6 +31,14 @@ public class ModBlockLootTables extends BlockLootSubProvider {
         this.dropSelf(ModBlocks.DOLOMITE_PILLAR.get());
         this.dropSelf(ModBlocks.DOLOMITE_CHISELED_BRICKS.get());
         this.dropSelf(ModBlocks.DOLOMITE_LAYERED_BLOCK.get());
+        this.dropSelf(ModBlocks.LIMESTONE_BRICKS.get());
+        this.dropSelf(ModBlocks.LIMESTONE_COBBLESTONE.get());
+        this.dropSelf(ModBlocks.LIMESTONE_LAYERED_BLOCK.get());
+        this.dropSelf(ModBlocks.LIMESTONE_POLISHED_BLOCK.get());
+        this.dropSelf(ModBlocks.LIMESTONE_PAVED_BRICKS.get());
+        this.dropSelf(ModBlocks.LIMESTONE_FANCY_BRICKS.get());
+        this.dropSelf(ModBlocks.LIMESTONE_PILLAR.get());
+        this.dropSelf(ModBlocks.LIMESTONE_CHISELED_BRICKS.get());
         // Slab
         this.add(ModBlocks.DOLOMITE_SLAB.get(),
                 block -> createSlabItemTable(ModBlocks.DOLOMITE_SLAB.get()));
@@ -50,6 +59,10 @@ public class ModBlockLootTables extends BlockLootSubProvider {
         this.dropSelf(ModBlocks.DOLOMITE_PAVED_BRICK_STAIRS.get());
         // Wall
         this.dropSelf(ModBlocks.DOLOMITE_BRICK_WALL.get());
+        this.dropSelf(ModBlocks.DOLOMITE_POLISHED_WALL.get());
+        this.dropSelf(ModBlocks.DOLOMITE_PAVED_BRICK_WALL.get());
+        this.dropSelf(ModBlocks.DOLOMITE_FANCY_BRICK_WALL.get());
+        this.dropSelf(ModBlocks.DOLOMITE_COBBLESTONE_WALL.get());
 
     }
 

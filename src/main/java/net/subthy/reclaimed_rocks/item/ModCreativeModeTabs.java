@@ -15,10 +15,10 @@ public class ModCreativeModeTabs {
             DeferredRegister.create(Registries.CREATIVE_MODE_TAB, ReclaimedRocksMod.MOD_ID);
 
     public static final RegistryObject<CreativeModeTab> COURSE_TAB = CREATIVE_MODE_TABS.register("reclaimed_rocks_tab",
-            () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModBlocks.DOLOMITE_BLOCK.get()))
+            () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModBlocks.DOLOMITE.get()))
                     .title(Component.translatable("creativetab.reclaimed_rocks_tab"))
                     .displayItems((displayParameters, output) -> {
-                        output.accept(ModBlocks.DOLOMITE_BLOCK.get());
+                        output.accept(ModBlocks.DOLOMITE.get());
                         output.accept(ModBlocks.DOLOMITE_BRICKS.get());
                         output.accept(ModBlocks.DOLOMITE_SLAB.get());
                         output.accept(ModBlocks.DOLOMITE_STAIRS.get());
@@ -39,6 +39,19 @@ public class ModCreativeModeTabs {
                         output.accept(ModBlocks.DOLOMITE_CHISELED_BRICKS.get());
                         output.accept(ModBlocks.DOLOMITE_LAYERED_BLOCK.get());
                         output.accept(ModBlocks.DOLOMITE_BRICK_WALL.get());
+                        output.accept(ModBlocks.DOLOMITE_POLISHED_WALL.get());
+                        output.accept(ModBlocks.DOLOMITE_PAVED_BRICK_WALL.get());
+                        output.accept(ModBlocks.DOLOMITE_COBBLESTONE_WALL.get());
+                        output.accept(ModBlocks.DOLOMITE_FANCY_BRICK_WALL.get());
+
+                        output.accept(ModBlocks.LIMESTONE.get());
+                        output.accept(ModBlocks.LIMESTONE_PILLAR.get());
+                        output.accept(ModBlocks.LIMESTONE_CHISELED_BRICKS.get());
+                        output.accept(ModBlocks.LIMESTONE_LAYERED_BLOCK.get());
+                        output.accept(ModBlocks.LIMESTONE_BRICKS.get());
+                        output.accept(ModBlocks.LIMESTONE_COBBLESTONE.get());
+                        output.accept(ModBlocks.LIMESTONE_PAVED_BRICKS.get());
+                        output.accept(ModBlocks.LIMESTONE_POLISHED_BLOCK.get());
                     }).build());
 
 

@@ -8,7 +8,6 @@ import net.minecraftforge.data.event.GatherDataEvent;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.fml.common.Mod;
 import net.subthy.reclaimed_rocks.ReclaimedRocksMod;
-import net.subthy.reclaimed_rocks.datagen.loot.ModItemModelProvider;
 
 import java.util.concurrent.CompletableFuture;
 

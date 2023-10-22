@@ -22,6 +22,10 @@ public class ModItemModelProvider extends ItemModelProvider {
     protected void registerModels() {
 
         wallItem(ModBlocks.DOLOMITE_BRICK_WALL, ModBlocks.DOLOMITE_BRICKS);
+        wallItem(ModBlocks.DOLOMITE_COBBLESTONE_WALL, ModBlocks.DOLOMITE_COBBLESTONE);
+        wallItem(ModBlocks.DOLOMITE_PAVED_BRICK_WALL, ModBlocks.DOLOMITE_PAVED_BRICKS);
+        wallItem(ModBlocks.DOLOMITE_FANCY_BRICK_WALL, ModBlocks.DOLOMITE_FANCY_BRICKS);
+        wallItem(ModBlocks.DOLOMITE_POLISHED_WALL, ModBlocks.DOLOMITE_POLISHED_BLOCK);
     }
 
     public void fenceItem(RegistryObject<Block> block, RegistryObject<Block> baseBlock) {
