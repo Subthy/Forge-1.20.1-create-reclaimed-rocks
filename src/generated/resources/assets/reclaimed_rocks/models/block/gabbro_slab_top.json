@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab_top",
+  "textures": {
+    "bottom": "reclaimed_rocks:block/gabbro",
+    "side": "reclaimed_rocks:block/gabbro",
+    "top": "reclaimed_rocks:block/gabbro"
+  }
+}

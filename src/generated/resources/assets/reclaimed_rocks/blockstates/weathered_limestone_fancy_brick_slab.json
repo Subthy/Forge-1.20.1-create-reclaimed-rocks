@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "reclaimed_rocks:block/weathered_limestone_fancy_brick_slab"
+    },
+    "type=double": {
+      "model": "reclaimed_rocks:block/weathered_limestone_fancy_bricks"
+    },
+    "type=top": {
+      "model": "reclaimed_rocks:block/weathered_limestone_fancy_brick_slab_top"
+    }
+  }
+}

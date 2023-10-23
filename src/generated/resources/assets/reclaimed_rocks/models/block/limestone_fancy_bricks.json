@@ -1,6 +1,0 @@
-{
-  "parent": "minecraft:block/cube_all",
-  "textures": {
-    "all": "reclaimed_rocks:block/limestone_fancy_bricks"
-  }
-}

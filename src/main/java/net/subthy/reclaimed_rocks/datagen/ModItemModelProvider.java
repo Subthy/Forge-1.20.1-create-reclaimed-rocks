@@ -20,12 +20,28 @@ public class ModItemModelProvider extends ItemModelProvider {
 
     @Override
     protected void registerModels() {
-
+            // DOLOMITE
         wallItem(ModBlocks.DOLOMITE_BRICK_WALL, ModBlocks.DOLOMITE_BRICKS);
+        wallItem(ModBlocks.DOLOMITE_WALL, ModBlocks.DOLOMITE);
         wallItem(ModBlocks.DOLOMITE_COBBLESTONE_WALL, ModBlocks.DOLOMITE_COBBLESTONE);
         wallItem(ModBlocks.DOLOMITE_PAVED_BRICK_WALL, ModBlocks.DOLOMITE_PAVED_BRICKS);
         wallItem(ModBlocks.DOLOMITE_FANCY_BRICK_WALL, ModBlocks.DOLOMITE_FANCY_BRICKS);
         wallItem(ModBlocks.DOLOMITE_POLISHED_WALL, ModBlocks.DOLOMITE_POLISHED_BLOCK);
+            // WEATHERED_LIMESTONE
+        wallItem(ModBlocks.WEATHERED_LIMESTONE_BRICK_WALL, ModBlocks.WEATHERED_LIMESTONE_BRICKS);
+        wallItem(ModBlocks.WEATHERED_LIMESTONE_COBBLESTONE_WALL, ModBlocks.WEATHERED_LIMESTONE_COBBLESTONE);
+        wallItem(ModBlocks.WEATHERED_LIMESTONE_PAVED_BRICK_WALL, ModBlocks.WEATHERED_LIMESTONE_PAVED_BRICKS);
+        wallItem(ModBlocks.WEATHERED_LIMESTONE_FANCY_BRICK_WALL, ModBlocks.WEATHERED_LIMESTONE_FANCY_BRICKS);
+        wallItem(ModBlocks.WEATHERED_LIMESTONE_POLISHED_WALL, ModBlocks.WEATHERED_LIMESTONE_POLISHED_BLOCK);
+        wallItem(ModBlocks.WEATHERED_LIMESTONE_WALL, ModBlocks.WEATHERED_LIMESTONE);
+            // GABBRO
+        wallItem(ModBlocks.GABBRO_BRICK_WALL, ModBlocks.GABBRO_BRICKS);
+        wallItem(ModBlocks.GABBRO_WALL, ModBlocks.GABBRO);
+        wallItem(ModBlocks.GABBRO_COBBLESTONE_WALL, ModBlocks.GABBRO_COBBLESTONE);
+        wallItem(ModBlocks.GABBRO_PAVED_BRICK_WALL, ModBlocks.GABBRO_PAVED_BRICKS);
+        wallItem(ModBlocks.GABBRO_FANCY_BRICK_WALL, ModBlocks.GABBRO_FANCY_BRICKS);
+        wallItem(ModBlocks.GABBRO_POLISHED_WALL, ModBlocks.GABBRO_POLISHED_BLOCK);
+
     }
 
     public void fenceItem(RegistryObject<Block> block, RegistryObject<Block> baseBlock) {

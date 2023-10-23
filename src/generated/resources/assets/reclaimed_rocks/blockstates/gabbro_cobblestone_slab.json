@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "reclaimed_rocks:block/gabbro_cobblestone_slab"
+    },
+    "type=double": {
+      "model": "reclaimed_rocks:block/gabbro_cobblestone"
+    },
+    "type=top": {
+      "model": "reclaimed_rocks:block/gabbro_cobblestone_slab_top"
+    }
+  }
+}

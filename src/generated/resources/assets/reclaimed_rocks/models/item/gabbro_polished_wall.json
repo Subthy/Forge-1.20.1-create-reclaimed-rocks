@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/wall_inventory",
+  "textures": {
+    "wall": "reclaimed_rocks:block/gabbro_polished_block"
+  }
+}

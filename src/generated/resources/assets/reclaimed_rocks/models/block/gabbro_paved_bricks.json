@@ -1,0 +1,9 @@
+{
+  "parent": "minecraft:block/orientable_with_bottom",
+  "textures": {
+    "bottom": "reclaimed_rocks:block/gabbro_paved_bricks_top",
+    "front": "reclaimed_rocks:block/gabbro_paved_bricks",
+    "side": "reclaimed_rocks:block/gabbro_paved_bricks",
+    "top": "reclaimed_rocks:block/gabbro_paved_bricks_top"
+  }
+}
