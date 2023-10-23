@@ -79,6 +79,7 @@ public class ModBlocks {
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.STONE_BRICKS)));
 
 
+
     // Slabs
         // Dolomite
     public static final RegistryObject<Block> DOLOMITE_SLAB = registerBlock("dolomite_slab",

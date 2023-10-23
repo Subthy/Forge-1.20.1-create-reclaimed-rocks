@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": {
+      "item": "reclaimed_rocks:dolomite_polished_block"
+    }
+  },
+  "pattern": [
+    "AAA"
+  ],
+  "result": {
+    "count": 3,
+    "item": "reclaimed_rocks:dolomite_polished_slab"
+  },
+  "show_notification": true
+}

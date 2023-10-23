@@ -128,6 +128,7 @@ public class ModBlockStateProvider extends BlockStateProvider {
         blockItem(ModBlocks.GABBRO_BRICK_SLAB);
         slabBlock(((SlabBlock) ModBlocks.GABBRO_FANCY_BRICK_SLAB.get()), blockTexture(ModBlocks.GABBRO_FANCY_BRICKS.get()), blockTexture(ModBlocks.GABBRO_FANCY_BRICKS.get()));
         blockItem(ModBlocks.GABBRO_FANCY_BRICK_SLAB);
+
         // Stairs
             // Dolomite
         stairsBlock((StairBlock) ModBlocks.DOLOMITE_STAIRS.get(), blockTexture(ModBlocks.DOLOMITE.get()));
