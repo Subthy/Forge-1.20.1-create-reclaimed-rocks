@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "reclaimed_rocks:block/gabbro_layered_slab"
+    },
+    "type=double": {
+      "model": "reclaimed_rocks:block/gabbro_layered_block"
+    },
+    "type=top": {
+      "model": "reclaimed_rocks:block/gabbro_layered_slab_top"
+    }
+  }
+}

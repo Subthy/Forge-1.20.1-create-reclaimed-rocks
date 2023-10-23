@@ -1,17 +1,8 @@
 {
-  "type": "minecraft:crafting_shaped",
-  "category": "misc",
-  "key": {
-    "A": {
-      "item": "reclaimed_rocks:dolomite_fancy_bricks"
-    }
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "reclaimed_rocks:dolomite"
   },
-  "pattern": [
-    "AAA"
-  ],
-  "result": {
-    "count": 3,
-    "item": "reclaimed_rocks:dolomite_paved_bricks"
-  },
-  "show_notification": true
+  "result": "reclaimed_rocks:dolomite_paved_bricks"
 }

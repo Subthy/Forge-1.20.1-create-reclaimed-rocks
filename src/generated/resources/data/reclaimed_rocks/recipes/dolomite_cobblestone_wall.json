@@ -1,18 +1,8 @@
 {
-  "type": "minecraft:crafting_shaped",
-  "category": "misc",
-  "key": {
-    "A": {
-      "item": "reclaimed_rocks:dolomite_cobblestone"
-    }
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "reclaimed_rocks:dolomite_cobblestone"
   },
-  "pattern": [
-    "AAA",
-    "AAA"
-  ],
-  "result": {
-    "count": 6,
-    "item": "reclaimed_rocks:dolomite_cobblestone_wall"
-  },
-  "show_notification": true
+  "result": "reclaimed_rocks:dolomite_cobblestone_wall"
 }

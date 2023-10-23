@@ -106,6 +106,8 @@ public class ModBlockStateProvider extends BlockStateProvider {
         blockItem(ModBlocks.DOLOMITE_BRICK_SLAB);
         slabBlock(((SlabBlock) ModBlocks.DOLOMITE_FANCY_BRICK_SLAB.get()), blockTexture(ModBlocks.DOLOMITE_FANCY_BRICKS.get()), blockTexture(ModBlocks.DOLOMITE_FANCY_BRICKS.get()));
         blockItem(ModBlocks.DOLOMITE_FANCY_BRICK_SLAB);
+        slabBlock(((SlabBlock) ModBlocks.DOLOMITE_LAYERED_SLAB.get()), blockTexture(ModBlocks.DOLOMITE_LAYERED_BLOCK.get()), blockTexture(ModBlocks.DOLOMITE_LAYERED_BLOCK.get()));
+        blockItem(ModBlocks.DOLOMITE_LAYERED_SLAB);
             // Limestone
         slabBlock(((SlabBlock) ModBlocks.WEATHERED_LIMESTONE_SLAB.get()), blockTexture(ModBlocks.WEATHERED_LIMESTONE.get()), blockTexture(ModBlocks.WEATHERED_LIMESTONE.get()));
         blockItem(ModBlocks.WEATHERED_LIMESTONE_SLAB);
@@ -117,6 +119,8 @@ public class ModBlockStateProvider extends BlockStateProvider {
         blockItem(ModBlocks.WEATHERED_LIMESTONE_BRICK_SLAB);
         slabBlock(((SlabBlock) ModBlocks.WEATHERED_LIMESTONE_FANCY_BRICK_SLAB.get()), blockTexture(ModBlocks.WEATHERED_LIMESTONE_FANCY_BRICKS.get()), blockTexture(ModBlocks.WEATHERED_LIMESTONE_FANCY_BRICKS.get()));
         blockItem(ModBlocks.WEATHERED_LIMESTONE_FANCY_BRICK_SLAB);
+        slabBlock(((SlabBlock) ModBlocks.WEATHERED_LIMESTONE_LAYERED_SLAB.get()), blockTexture(ModBlocks.WEATHERED_LIMESTONE_LAYERED_BLOCK.get()), blockTexture(ModBlocks.WEATHERED_LIMESTONE_LAYERED_BLOCK.get()));
+        blockItem(ModBlocks.WEATHERED_LIMESTONE_LAYERED_SLAB);
             // GABBRO
         slabBlock(((SlabBlock) ModBlocks.GABBRO_SLAB.get()), blockTexture(ModBlocks.GABBRO.get()), blockTexture(ModBlocks.GABBRO.get()));
         blockItem(ModBlocks.GABBRO_SLAB);
@@ -128,6 +132,8 @@ public class ModBlockStateProvider extends BlockStateProvider {
         blockItem(ModBlocks.GABBRO_BRICK_SLAB);
         slabBlock(((SlabBlock) ModBlocks.GABBRO_FANCY_BRICK_SLAB.get()), blockTexture(ModBlocks.GABBRO_FANCY_BRICKS.get()), blockTexture(ModBlocks.GABBRO_FANCY_BRICKS.get()));
         blockItem(ModBlocks.GABBRO_FANCY_BRICK_SLAB);
+        slabBlock(((SlabBlock) ModBlocks.GABBRO_LAYERED_SLAB.get()), blockTexture(ModBlocks.GABBRO_LAYERED_BLOCK.get()), blockTexture(ModBlocks.GABBRO_LAYERED_BLOCK.get()));
+        blockItem(ModBlocks.GABBRO_LAYERED_SLAB);
 
         // Stairs
             // Dolomite

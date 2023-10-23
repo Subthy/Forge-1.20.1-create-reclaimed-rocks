@@ -92,6 +92,8 @@ public class ModBlocks {
             () -> new SlabBlock(BlockBehaviour.Properties.copy(Blocks.GRANITE_SLAB).sound(SoundType.STONE)));
     public static final RegistryObject<Block> DOLOMITE_FANCY_BRICK_SLAB = registerBlock("dolomite_fancy_brick_slab",
             () -> new SlabBlock(BlockBehaviour.Properties.copy(Blocks.GRANITE_SLAB).sound(SoundType.STONE)));
+    public static final RegistryObject<Block> DOLOMITE_LAYERED_SLAB = registerBlock("dolomite_layered_slab",
+            () -> new SlabBlock(BlockBehaviour.Properties.copy(Blocks.GRANITE_SLAB).sound(SoundType.STONE)));
         //WEATHERED_LIMESTONE
         public static final RegistryObject<Block> WEATHERED_LIMESTONE_SLAB = registerBlock("weathered_limestone_slab",
                 () -> new SlabBlock(BlockBehaviour.Properties.copy(Blocks.GRANITE_SLAB).sound(SoundType.STONE)));
@@ -103,6 +105,8 @@ public class ModBlocks {
             () -> new SlabBlock(BlockBehaviour.Properties.copy(Blocks.GRANITE_SLAB).sound(SoundType.STONE)));
     public static final RegistryObject<Block> WEATHERED_LIMESTONE_FANCY_BRICK_SLAB = registerBlock("weathered_limestone_fancy_brick_slab",
             () -> new SlabBlock(BlockBehaviour.Properties.copy(Blocks.GRANITE_SLAB).sound(SoundType.STONE)));
+    public static final RegistryObject<Block> WEATHERED_LIMESTONE_LAYERED_SLAB = registerBlock("weathered_limestone_layered_slab",
+            () -> new SlabBlock(BlockBehaviour.Properties.copy(Blocks.GRANITE_SLAB).sound(SoundType.STONE)));
         // GABBRO
         public static final RegistryObject<Block> GABBRO_SLAB = registerBlock("gabbro_slab",
                 () -> new SlabBlock(BlockBehaviour.Properties.copy(Blocks.GRANITE_SLAB).sound(SoundType.STONE)));
@@ -113,6 +117,8 @@ public class ModBlocks {
     public static final RegistryObject<Block> GABBRO_BRICK_SLAB = registerBlock("gabbro_brick_slab",
             () -> new SlabBlock(BlockBehaviour.Properties.copy(Blocks.GRANITE_SLAB).sound(SoundType.STONE)));
     public static final RegistryObject<Block> GABBRO_FANCY_BRICK_SLAB = registerBlock("gabbro_fancy_brick_slab",
+            () -> new SlabBlock(BlockBehaviour.Properties.copy(Blocks.GRANITE_SLAB).sound(SoundType.STONE)));
+    public static final RegistryObject<Block> GABBRO_LAYERED_SLAB = registerBlock("gabbro_layered_slab",
             () -> new SlabBlock(BlockBehaviour.Properties.copy(Blocks.GRANITE_SLAB).sound(SoundType.STONE)));
 
     // Stairs

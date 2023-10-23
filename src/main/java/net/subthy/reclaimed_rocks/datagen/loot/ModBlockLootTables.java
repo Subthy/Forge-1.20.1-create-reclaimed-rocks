@@ -62,6 +62,8 @@ public class ModBlockLootTables extends BlockLootSubProvider {
                 block -> createSlabItemTable(ModBlocks.DOLOMITE_BRICK_SLAB.get()));
         this.add(ModBlocks.DOLOMITE_FANCY_BRICK_SLAB.get(),
                 block -> createSlabItemTable(ModBlocks.DOLOMITE_FANCY_BRICK_SLAB.get()));
+        this.add(ModBlocks.DOLOMITE_LAYERED_SLAB.get(),
+                block -> createSlabItemTable(ModBlocks.DOLOMITE_LAYERED_SLAB.get()));
             // Limestone
         this.add(ModBlocks.WEATHERED_LIMESTONE_SLAB.get(),
                 block -> createSlabItemTable(ModBlocks.WEATHERED_LIMESTONE_SLAB.get()));
@@ -73,6 +75,8 @@ public class ModBlockLootTables extends BlockLootSubProvider {
                 block -> createSlabItemTable(ModBlocks.WEATHERED_LIMESTONE_BRICK_SLAB.get()));
         this.add(ModBlocks.WEATHERED_LIMESTONE_FANCY_BRICK_SLAB.get(),
                 block -> createSlabItemTable(ModBlocks.WEATHERED_LIMESTONE_FANCY_BRICK_SLAB.get()));
+        this.add(ModBlocks.WEATHERED_LIMESTONE_LAYERED_SLAB.get(),
+                block -> createSlabItemTable(ModBlocks.DOLOMITE_LAYERED_SLAB.get()));
             // GABBRO
         this.add(ModBlocks.GABBRO_SLAB.get(),
                 block -> createSlabItemTable(ModBlocks.GABBRO_SLAB.get()));
@@ -84,6 +88,8 @@ public class ModBlockLootTables extends BlockLootSubProvider {
                 block -> createSlabItemTable(ModBlocks.GABBRO_BRICK_SLAB.get()));
         this.add(ModBlocks.GABBRO_FANCY_BRICK_SLAB.get(),
                 block -> createSlabItemTable(ModBlocks.GABBRO_FANCY_BRICK_SLAB.get()));
+        this.add(ModBlocks.GABBRO_LAYERED_SLAB.get(),
+                block -> createSlabItemTable(ModBlocks.GABBRO_LAYERED_SLAB.get()));
         //Stair
             // Dolomite
         this.dropSelf(ModBlocks.DOLOMITE_STAIRS.get());

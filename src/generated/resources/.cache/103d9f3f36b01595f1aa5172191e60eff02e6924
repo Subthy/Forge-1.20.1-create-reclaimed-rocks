@@ -1,0 +1,4 @@
+// 1.20.1	2023-10-24T01:23:16.6618124	Registries
+4d57d82a51b1f359630d6101f787ee6f9d25d834 data/reclaimed_rocks/forge/biome_modifier/add_dolomite.json
+e28a3d7ace2f501be025b7810f8e9fef867699bd data/reclaimed_rocks/worldgen/configured_feature/dolomite.json
+377deaa39a354dae9791b56e3a835aa0fa0eee98 data/reclaimed_rocks/worldgen/placed_feature/dolomite_placed.json

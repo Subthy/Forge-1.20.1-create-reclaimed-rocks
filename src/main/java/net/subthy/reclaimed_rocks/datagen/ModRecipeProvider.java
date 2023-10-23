@@ -32,139 +32,392 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
     @Override
     protected void buildRecipes(Consumer<FinishedRecipe> pWriter) {
         // Shapped Recipes
-            // Dolomite
-        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.DOLOMITE_PILLAR.get(),2)
-                .pattern("A")
-                .pattern("A")
-                .define('A', ModBlocks.DOLOMITE.get())
-                .unlockedBy("has_dolomite", inventoryTrigger(ItemPredicate.Builder.item().
-                        of(ModBlocks.DOLOMITE.get()).build()))
-                .save(pWriter);
-
-        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.DOLOMITE_POLISHED_BLOCK.get(),4)
-                .pattern("AA")
-                .pattern("AA")
-                .define('A', ModBlocks.DOLOMITE.get())
-                .unlockedBy("has_dolomite", inventoryTrigger(ItemPredicate.Builder.item().
-                        of(ModBlocks.DOLOMITE.get()).build()))
-                .save(pWriter);
-
-        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.DOLOMITE_COBBLESTONE_STAIRS.get(),4)
-                .pattern("A  ")
-                .pattern("AA ")
-                .pattern("AAA")
-                .define('A', ModBlocks.DOLOMITE_COBBLESTONE.get())
-                .unlockedBy("has_dolomite", inventoryTrigger(ItemPredicate.Builder.item().
-                        of(ModBlocks.DOLOMITE_COBBLESTONE.get()).build()))
-                .save(pWriter);
-
-        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.DOLOMITE_COBBLESTONE_SLAB.get(),3)
-                .pattern("AAA")
-                .define('A', ModBlocks.DOLOMITE.get())
-                .unlockedBy("has_dolomite", inventoryTrigger(ItemPredicate.Builder.item().
-                        of(ModBlocks.DOLOMITE_COBBLESTONE.get()).build()))
-                .save(pWriter);
-
-        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.DOLOMITE_COBBLESTONE_WALL.get(),6)
-                .pattern("AAA")
-                .pattern("AAA")
-                .define('A', ModBlocks.DOLOMITE_COBBLESTONE.get())
-                .unlockedBy("has_dolomite", inventoryTrigger(ItemPredicate.Builder.item().
-                        of(ModBlocks.DOLOMITE_COBBLESTONE.get()).build()))
-                .save(pWriter);
-        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.DOLOMITE_POLISHED_STAIRS.get(),4)
-                .pattern("A  ")
-                .pattern("AA ")
-                .pattern("AAA")
-                .define('A', ModBlocks.DOLOMITE_POLISHED_BLOCK.get())
-                .unlockedBy("has_dolomite", inventoryTrigger(ItemPredicate.Builder.item().
-                        of(ModBlocks.DOLOMITE_POLISHED_BLOCK.get()).build()))
-                .save(pWriter);
-
-        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.DOLOMITE_POLISHED_SLAB.get(),3)
-                .pattern("AAA")
-                .define('A', ModBlocks.DOLOMITE_POLISHED_BLOCK.get())
-                .unlockedBy("has_dolomite", inventoryTrigger(ItemPredicate.Builder.item().
-                        of(ModBlocks.DOLOMITE_POLISHED_BLOCK.get()).build()))
-                .save(pWriter);
-
-        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.DOLOMITE_POLISHED_WALL.get(),6)
-                .pattern("AAA")
-                .pattern("AAA")
-                .define('A', ModBlocks.DOLOMITE_POLISHED_BLOCK.get())
-                .unlockedBy("has_dolomite", inventoryTrigger(ItemPredicate.Builder.item().
-                        of(ModBlocks.DOLOMITE_POLISHED_BLOCK.get()).build()))
-                .save(pWriter);
-
-        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.DOLOMITE_BRICK_STAIRS.get(),4)
-                .pattern("A  ")
-                .pattern("AA ")
-                .pattern("AAA")
-                .define('A', ModBlocks.DOLOMITE_BRICKS.get())
-                .unlockedBy("has_dolomite", inventoryTrigger(ItemPredicate.Builder.item().
-                        of(ModBlocks.DOLOMITE_BRICKS.get()).build()))
-                .save(pWriter);
-
-        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.DOLOMITE_BRICK_SLAB.get(),3)
-                .pattern("AAA")
-                .define('A', ModBlocks.DOLOMITE_BRICKS.get())
-                .unlockedBy("has_dolomite", inventoryTrigger(ItemPredicate.Builder.item().
-                        of(ModBlocks.DOLOMITE_BRICKS.get()).build()))
-                .save(pWriter);
-
-        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.DOLOMITE_BRICK_WALL.get(),6)
-                .pattern("AAA")
-                .pattern("AAA")
-                .define('A', ModBlocks.DOLOMITE_BRICKS.get())
-                .unlockedBy("has_dolomite", inventoryTrigger(ItemPredicate.Builder.item().
-                        of(ModBlocks.DOLOMITE_BRICKS.get()).build()))
-                .save(pWriter);
-
-        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.DOLOMITE_FANCY_BRICK_STAIRS.get(),4)
-                .pattern("A  ")
-                .pattern("AA ")
-                .pattern("AAA")
-                .define('A', ModBlocks.DOLOMITE_FANCY_BRICKS.get())
-                .unlockedBy("has_dolomite", inventoryTrigger(ItemPredicate.Builder.item().
-                        of(ModBlocks.DOLOMITE_FANCY_BRICKS.get()).build()))
-                .save(pWriter);
-
-        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.DOLOMITE_FANCY_BRICK_SLAB.get(),3)
-                .pattern("AAA")
-                .define('A', ModBlocks.DOLOMITE_FANCY_BRICKS.get())
-                .unlockedBy("has_dolomite", inventoryTrigger(ItemPredicate.Builder.item().
-                        of(ModBlocks.DOLOMITE_FANCY_BRICKS.get()).build()))
-                .save(pWriter);
-
-        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.DOLOMITE_FANCY_BRICK_WALL.get(),6)
-                .pattern("AAA")
-                .pattern("AAA")
-                .define('A', ModBlocks.DOLOMITE_FANCY_BRICKS.get())
-                .unlockedBy("has_dolomite", inventoryTrigger(ItemPredicate.Builder.item().
-                        of(ModBlocks.DOLOMITE_FANCY_BRICKS.get()).build()))
-                .save(pWriter);
-
-        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.DOLOMITE_PAVED_BRICK_STAIRS.get(),4)
-                .pattern("A  ")
-                .pattern("AA ")
-                .pattern("AAA")
-                .define('A', ModBlocks.DOLOMITE_PAVED_BRICKS.get())
-                .unlockedBy("has_dolomite", inventoryTrigger(ItemPredicate.Builder.item().
-                        of(ModBlocks.DOLOMITE_PAVED_BRICKS.get()).build()))
-                .save(pWriter);
-
-        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.DOLOMITE_PAVED_BRICKS.get(),3)
-                .pattern("AAA")
-                .define('A', ModBlocks.DOLOMITE_FANCY_BRICKS.get())
-                .unlockedBy("has_dolomite", inventoryTrigger(ItemPredicate.Builder.item().
-                        of(ModBlocks.DOLOMITE_FANCY_BRICKS.get()).build()))
-                .save(pWriter);
 
         // Smelting
         oreSmelting(pWriter, DOLOMITE_SMELTABLES, RecipeCategory.MISC, ModBlocks.DOLOMITE.get(), 0.25f, 200, "dolomite");
         oreSmelting(pWriter, WEATHERED_LIMESTONE_SMELTABLES, RecipeCategory.MISC, ModBlocks.WEATHERED_LIMESTONE.get(), 0.25f, 200, "weathered_limestone");
         oreSmelting(pWriter, GOBBRO_SMELTABLES, RecipeCategory.MISC, ModBlocks.GABBRO.get(), 0.25f, 200, "gabbro");
 
+        // Stonecutting
+            // Dolomite
+        SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.DOLOMITE.get()), RecipeCategory.MISC, ModBlocks.DOLOMITE_LAYERED_BLOCK.get())
+                .unlockedBy("has_dolomite", inventoryTrigger(ItemPredicate.Builder.item().
+                        of(ModBlocks.DOLOMITE.get()).build()))
+                .save(pWriter);
+
+        SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.DOLOMITE.get()), RecipeCategory.MISC, ModBlocks.DOLOMITE_POLISHED_BLOCK.get())
+                .unlockedBy("has_dolomite", inventoryTrigger(ItemPredicate.Builder.item().
+                        of(ModBlocks.DOLOMITE.get()).build()))
+                .save(pWriter);
+
+        SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.DOLOMITE.get()), RecipeCategory.MISC, ModBlocks.DOLOMITE_BRICKS.get())
+                .unlockedBy("has_dolomite", inventoryTrigger(ItemPredicate.Builder.item().
+                        of(ModBlocks.DOLOMITE.get()).build()))
+                .save(pWriter);
+
+        SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.DOLOMITE.get()), RecipeCategory.MISC, ModBlocks.DOLOMITE_PAVED_BRICKS.get())
+                .unlockedBy("has_dolomite", inventoryTrigger(ItemPredicate.Builder.item().
+                        of(ModBlocks.DOLOMITE.get()).build()))
+                .save(pWriter);
+
+        SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.DOLOMITE.get()), RecipeCategory.MISC, ModBlocks.DOLOMITE_PILLAR.get())
+                .unlockedBy("has_dolomite", inventoryTrigger(ItemPredicate.Builder.item().
+                        of(ModBlocks.DOLOMITE.get()).build()))
+                .save(pWriter);
+
+        SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.DOLOMITE.get()), RecipeCategory.MISC, ModBlocks.DOLOMITE_FANCY_BRICKS.get())
+                .unlockedBy("has_dolomite", inventoryTrigger(ItemPredicate.Builder.item().
+                        of(ModBlocks.DOLOMITE.get()).build()))
+                .save(pWriter);
+
+        SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.DOLOMITE.get()), RecipeCategory.MISC, ModBlocks.DOLOMITE_CHISELED_BRICKS.get())
+                .unlockedBy("has_dolomite", inventoryTrigger(ItemPredicate.Builder.item().
+                        of(ModBlocks.DOLOMITE.get()).build()))
+                .save(pWriter);
+
+        SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.DOLOMITE.get()), RecipeCategory.MISC, ModBlocks.DOLOMITE_SLAB.get())
+                .unlockedBy("has_dolomite", inventoryTrigger(ItemPredicate.Builder.item().
+                        of(ModBlocks.DOLOMITE.get()).build()))
+                .save(pWriter);
+
+        SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.DOLOMITE.get()), RecipeCategory.MISC, ModBlocks.DOLOMITE_POLISHED_SLAB.get())
+                .unlockedBy("has_dolomite", inventoryTrigger(ItemPredicate.Builder.item().
+                        of(ModBlocks.DOLOMITE.get()).build()))
+                .save(pWriter);
+
+        SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.DOLOMITE.get()), RecipeCategory.MISC, ModBlocks.DOLOMITE_BRICK_SLAB.get())
+                .unlockedBy("has_dolomite", inventoryTrigger(ItemPredicate.Builder.item().
+                        of(ModBlocks.DOLOMITE.get()).build()))
+                .save(pWriter);
+
+        SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.DOLOMITE.get()), RecipeCategory.MISC, ModBlocks.DOLOMITE_FANCY_BRICK_SLAB.get())
+                .unlockedBy("has_dolomite", inventoryTrigger(ItemPredicate.Builder.item().
+                        of(ModBlocks.DOLOMITE.get()).build()))
+                .save(pWriter);
+
+        SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.DOLOMITE.get()), RecipeCategory.MISC, ModBlocks.DOLOMITE_LAYERED_SLAB.get())
+                .unlockedBy("has_dolomite", inventoryTrigger(ItemPredicate.Builder.item().
+                        of(ModBlocks.DOLOMITE.get()).build()))
+                .save(pWriter);
+
+        SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.DOLOMITE_COBBLESTONE.get()), RecipeCategory.MISC, ModBlocks.DOLOMITE_COBBLESTONE_SLAB.get())
+                .unlockedBy("has_dolomite", inventoryTrigger(ItemPredicate.Builder.item().
+                        of(ModBlocks.DOLOMITE.get()).build()))
+                .save(pWriter);
+
+        SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.DOLOMITE.get()), RecipeCategory.MISC, ModBlocks.DOLOMITE_STAIRS.get())
+                .unlockedBy("has_dolomite", inventoryTrigger(ItemPredicate.Builder.item().
+                        of(ModBlocks.DOLOMITE.get()).build()))
+                .save(pWriter);
+
+        SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.DOLOMITE.get()), RecipeCategory.MISC, ModBlocks.DOLOMITE_BRICK_STAIRS.get())
+                .unlockedBy("has_dolomite", inventoryTrigger(ItemPredicate.Builder.item().
+                        of(ModBlocks.DOLOMITE.get()).build()))
+                .save(pWriter);
+
+        SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.DOLOMITE.get()), RecipeCategory.MISC, ModBlocks.DOLOMITE_FANCY_BRICK_STAIRS.get())
+                .unlockedBy("has_dolomite", inventoryTrigger(ItemPredicate.Builder.item().
+                        of(ModBlocks.DOLOMITE.get()).build()))
+                .save(pWriter);
+
+        SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.DOLOMITE.get()), RecipeCategory.MISC, ModBlocks.DOLOMITE_PAVED_BRICK_STAIRS.get())
+                .unlockedBy("has_dolomite", inventoryTrigger(ItemPredicate.Builder.item().
+                        of(ModBlocks.DOLOMITE.get()).build()))
+                .save(pWriter);
+
+        SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.DOLOMITE.get()), RecipeCategory.MISC, ModBlocks.DOLOMITE_POLISHED_STAIRS.get())
+                .unlockedBy("has_dolomite", inventoryTrigger(ItemPredicate.Builder.item().
+                        of(ModBlocks.DOLOMITE.get()).build()))
+                .save(pWriter);
+
+        SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.DOLOMITE_COBBLESTONE.get()), RecipeCategory.MISC, ModBlocks.DOLOMITE_COBBLESTONE_STAIRS.get())
+                .unlockedBy("has_dolomite", inventoryTrigger(ItemPredicate.Builder.item().
+                        of(ModBlocks.DOLOMITE.get()).build()))
+                .save(pWriter);
+
+        SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.DOLOMITE.get()), RecipeCategory.MISC, ModBlocks.DOLOMITE_BRICK_WALL.get())
+                .unlockedBy("has_dolomite", inventoryTrigger(ItemPredicate.Builder.item().
+                        of(ModBlocks.DOLOMITE.get()).build()))
+                .save(pWriter);
+
+        SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.DOLOMITE.get()), RecipeCategory.MISC, ModBlocks.DOLOMITE_WALL.get())
+                .unlockedBy("has_dolomite", inventoryTrigger(ItemPredicate.Builder.item().
+                        of(ModBlocks.DOLOMITE.get()).build()))
+                .save(pWriter);
+
+        SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.DOLOMITE.get()), RecipeCategory.MISC, ModBlocks.DOLOMITE_POLISHED_WALL.get())
+                .unlockedBy("has_dolomite", inventoryTrigger(ItemPredicate.Builder.item().
+                        of(ModBlocks.DOLOMITE.get()).build()))
+                .save(pWriter);
+
+        SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.DOLOMITE.get()), RecipeCategory.MISC, ModBlocks.DOLOMITE_FANCY_BRICK_WALL.get())
+                .unlockedBy("has_dolomite", inventoryTrigger(ItemPredicate.Builder.item().
+                        of(ModBlocks.DOLOMITE.get()).build()))
+                .save(pWriter);
+
+        SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.DOLOMITE.get()), RecipeCategory.MISC, ModBlocks.DOLOMITE_PAVED_BRICK_WALL.get())
+                .unlockedBy("has_dolomite", inventoryTrigger(ItemPredicate.Builder.item().
+                        of(ModBlocks.DOLOMITE.get()).build()))
+                .save(pWriter);
+
+        SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.DOLOMITE_COBBLESTONE.get()), RecipeCategory.MISC, ModBlocks.DOLOMITE_COBBLESTONE_WALL.get())
+                .unlockedBy("has_dolomite", inventoryTrigger(ItemPredicate.Builder.item().
+                        of(ModBlocks.DOLOMITE.get()).build()))
+                .save(pWriter);
+
+        // LIMESTONE
+
+        SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.WEATHERED_LIMESTONE.get()), RecipeCategory.MISC, ModBlocks.WEATHERED_LIMESTONE_LAYERED_BLOCK.get())
+                .unlockedBy("has_WEATHERED_LIMESTONE", inventoryTrigger(ItemPredicate.Builder.item().
+                        of(ModBlocks.WEATHERED_LIMESTONE.get()).build()))
+                .save(pWriter);
+
+        SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.WEATHERED_LIMESTONE.get()), RecipeCategory.MISC, ModBlocks.WEATHERED_LIMESTONE_POLISHED_BLOCK.get())
+                .unlockedBy("has_WEATHERED_LIMESTONE", inventoryTrigger(ItemPredicate.Builder.item().
+                        of(ModBlocks.WEATHERED_LIMESTONE.get()).build()))
+                .save(pWriter);
+
+        SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.WEATHERED_LIMESTONE.get()), RecipeCategory.MISC, ModBlocks.WEATHERED_LIMESTONE_BRICKS.get())
+                .unlockedBy("has_WEATHERED_LIMESTONE", inventoryTrigger(ItemPredicate.Builder.item().
+                        of(ModBlocks.WEATHERED_LIMESTONE.get()).build()))
+                .save(pWriter);
+
+        SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.WEATHERED_LIMESTONE.get()), RecipeCategory.MISC, ModBlocks.WEATHERED_LIMESTONE_PAVED_BRICKS.get())
+                .unlockedBy("has_WEATHERED_LIMESTONE", inventoryTrigger(ItemPredicate.Builder.item().
+                        of(ModBlocks.WEATHERED_LIMESTONE.get()).build()))
+                .save(pWriter);
+
+        SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.WEATHERED_LIMESTONE.get()), RecipeCategory.MISC, ModBlocks.WEATHERED_LIMESTONE_PILLAR.get())
+                .unlockedBy("has_WEATHERED_LIMESTONE", inventoryTrigger(ItemPredicate.Builder.item().
+                        of(ModBlocks.WEATHERED_LIMESTONE.get()).build()))
+                .save(pWriter);
+
+        SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.WEATHERED_LIMESTONE.get()), RecipeCategory.MISC, ModBlocks.WEATHERED_LIMESTONE_FANCY_BRICKS.get())
+                .unlockedBy("has_WEATHERED_LIMESTONE", inventoryTrigger(ItemPredicate.Builder.item().
+                        of(ModBlocks.WEATHERED_LIMESTONE.get()).build()))
+                .save(pWriter);
+
+        SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.WEATHERED_LIMESTONE.get()), RecipeCategory.MISC, ModBlocks.WEATHERED_LIMESTONE_CHISELED_BRICKS.get())
+                .unlockedBy("has_WEATHERED_LIMESTONE", inventoryTrigger(ItemPredicate.Builder.item().
+                        of(ModBlocks.WEATHERED_LIMESTONE.get()).build()))
+                .save(pWriter);
+
+        SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.WEATHERED_LIMESTONE.get()), RecipeCategory.MISC, ModBlocks.WEATHERED_LIMESTONE_SLAB.get())
+                .unlockedBy("has_WEATHERED_LIMESTONE", inventoryTrigger(ItemPredicate.Builder.item().
+                        of(ModBlocks.WEATHERED_LIMESTONE.get()).build()))
+                .save(pWriter);
+
+        SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.WEATHERED_LIMESTONE.get()), RecipeCategory.MISC, ModBlocks.WEATHERED_LIMESTONE_POLISHED_SLAB.get())
+                .unlockedBy("has_WEATHERED_LIMESTONE", inventoryTrigger(ItemPredicate.Builder.item().
+                        of(ModBlocks.WEATHERED_LIMESTONE.get()).build()))
+                .save(pWriter);
+
+        SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.WEATHERED_LIMESTONE.get()), RecipeCategory.MISC, ModBlocks.WEATHERED_LIMESTONE_BRICK_SLAB.get())
+                .unlockedBy("has_WEATHERED_LIMESTONE", inventoryTrigger(ItemPredicate.Builder.item().
+                        of(ModBlocks.WEATHERED_LIMESTONE.get()).build()))
+                .save(pWriter);
+
+        SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.WEATHERED_LIMESTONE.get()), RecipeCategory.MISC, ModBlocks.WEATHERED_LIMESTONE_FANCY_BRICK_SLAB.get())
+                .unlockedBy("has_WEATHERED_LIMESTONE", inventoryTrigger(ItemPredicate.Builder.item().
+                        of(ModBlocks.WEATHERED_LIMESTONE.get()).build()))
+                .save(pWriter);
+
+        SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.WEATHERED_LIMESTONE.get()), RecipeCategory.MISC, ModBlocks.WEATHERED_LIMESTONE_LAYERED_SLAB.get())
+                .unlockedBy("has_WEATHERED_LIMESTONE", inventoryTrigger(ItemPredicate.Builder.item().
+                        of(ModBlocks.WEATHERED_LIMESTONE.get()).build()))
+                .save(pWriter);
+
+        SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.WEATHERED_LIMESTONE_COBBLESTONE.get()), RecipeCategory.MISC, ModBlocks.WEATHERED_LIMESTONE_COBBLESTONE_SLAB.get())
+                .unlockedBy("has_WEATHERED_LIMESTONE", inventoryTrigger(ItemPredicate.Builder.item().
+                        of(ModBlocks.WEATHERED_LIMESTONE.get()).build()))
+                .save(pWriter);
+
+        SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.WEATHERED_LIMESTONE.get()), RecipeCategory.MISC, ModBlocks.WEATHERED_LIMESTONE_STAIRS.get())
+                .unlockedBy("has_WEATHERED_LIMESTONE", inventoryTrigger(ItemPredicate.Builder.item().
+                        of(ModBlocks.WEATHERED_LIMESTONE.get()).build()))
+                .save(pWriter);
+
+        SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.WEATHERED_LIMESTONE.get()), RecipeCategory.MISC, ModBlocks.WEATHERED_LIMESTONE_BRICK_STAIRS.get())
+                .unlockedBy("has_WEATHERED_LIMESTONE", inventoryTrigger(ItemPredicate.Builder.item().
+                        of(ModBlocks.WEATHERED_LIMESTONE.get()).build()))
+                .save(pWriter);
+
+        SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.WEATHERED_LIMESTONE.get()), RecipeCategory.MISC, ModBlocks.WEATHERED_LIMESTONE_FANCY_BRICK_STAIRS.get())
+                .unlockedBy("has_WEATHERED_LIMESTONE", inventoryTrigger(ItemPredicate.Builder.item().
+                        of(ModBlocks.WEATHERED_LIMESTONE.get()).build()))
+                .save(pWriter);
+
+        SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.WEATHERED_LIMESTONE.get()), RecipeCategory.MISC, ModBlocks.WEATHERED_LIMESTONE_PAVED_BRICK_STAIRS.get())
+                .unlockedBy("has_WEATHERED_LIMESTONE", inventoryTrigger(ItemPredicate.Builder.item().
+                        of(ModBlocks.WEATHERED_LIMESTONE.get()).build()))
+                .save(pWriter);
+
+        SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.WEATHERED_LIMESTONE.get()), RecipeCategory.MISC, ModBlocks.WEATHERED_LIMESTONE_POLISHED_STAIRS.get())
+                .unlockedBy("has_WEATHERED_LIMESTONE", inventoryTrigger(ItemPredicate.Builder.item().
+                        of(ModBlocks.WEATHERED_LIMESTONE.get()).build()))
+                .save(pWriter);
+
+        SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.WEATHERED_LIMESTONE_COBBLESTONE.get()), RecipeCategory.MISC, ModBlocks.WEATHERED_LIMESTONE_COBBLESTONE_STAIRS.get())
+                .unlockedBy("has_WEATHERED_LIMESTONE", inventoryTrigger(ItemPredicate.Builder.item().
+                        of(ModBlocks.WEATHERED_LIMESTONE.get()).build()))
+                .save(pWriter);
+
+        SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.WEATHERED_LIMESTONE.get()), RecipeCategory.MISC, ModBlocks.WEATHERED_LIMESTONE_BRICK_WALL.get())
+                .unlockedBy("has_WEATHERED_LIMESTONE", inventoryTrigger(ItemPredicate.Builder.item().
+                        of(ModBlocks.WEATHERED_LIMESTONE.get()).build()))
+                .save(pWriter);
+
+        SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.WEATHERED_LIMESTONE.get()), RecipeCategory.MISC, ModBlocks.WEATHERED_LIMESTONE_WALL.get())
+                .unlockedBy("has_WEATHERED_LIMESTONE", inventoryTrigger(ItemPredicate.Builder.item().
+                        of(ModBlocks.WEATHERED_LIMESTONE.get()).build()))
+                .save(pWriter);
+
+        SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.WEATHERED_LIMESTONE.get()), RecipeCategory.MISC, ModBlocks.WEATHERED_LIMESTONE_POLISHED_WALL.get())
+                .unlockedBy("has_WEATHERED_LIMESTONE", inventoryTrigger(ItemPredicate.Builder.item().
+                        of(ModBlocks.WEATHERED_LIMESTONE.get()).build()))
+                .save(pWriter);
+
+        SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.WEATHERED_LIMESTONE.get()), RecipeCategory.MISC, ModBlocks.WEATHERED_LIMESTONE_FANCY_BRICK_WALL.get())
+                .unlockedBy("has_WEATHERED_LIMESTONE", inventoryTrigger(ItemPredicate.Builder.item().
+                        of(ModBlocks.WEATHERED_LIMESTONE.get()).build()))
+                .save(pWriter);
+
+        SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.WEATHERED_LIMESTONE.get()), RecipeCategory.MISC, ModBlocks.WEATHERED_LIMESTONE_PAVED_BRICK_WALL.get())
+                .unlockedBy("has_WEATHERED_LIMESTONE", inventoryTrigger(ItemPredicate.Builder.item().
+                        of(ModBlocks.WEATHERED_LIMESTONE.get()).build()))
+                .save(pWriter);
+
+        SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.WEATHERED_LIMESTONE_COBBLESTONE.get()), RecipeCategory.MISC, ModBlocks.WEATHERED_LIMESTONE_COBBLESTONE_WALL.get())
+                .unlockedBy("has_WEATHERED_LIMESTONE", inventoryTrigger(ItemPredicate.Builder.item().
+                        of(ModBlocks.WEATHERED_LIMESTONE.get()).build()))
+                .save(pWriter);
+
+        // GABBRO
+
+        SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.GABBRO.get()), RecipeCategory.MISC, ModBlocks.GABBRO_LAYERED_BLOCK.get())
+                .unlockedBy("has_GABBRO", inventoryTrigger(ItemPredicate.Builder.item().
+                        of(ModBlocks.GABBRO.get()).build()))
+                .save(pWriter);
+
+        SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.GABBRO.get()), RecipeCategory.MISC, ModBlocks.GABBRO_POLISHED_BLOCK.get())
+                .unlockedBy("has_GABBRO", inventoryTrigger(ItemPredicate.Builder.item().
+                        of(ModBlocks.GABBRO.get()).build()))
+                .save(pWriter);
+
+        SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.GABBRO.get()), RecipeCategory.MISC, ModBlocks.GABBRO_BRICKS.get())
+                .unlockedBy("has_GABBRO", inventoryTrigger(ItemPredicate.Builder.item().
+                        of(ModBlocks.GABBRO.get()).build()))
+                .save(pWriter);
+
+        SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.GABBRO.get()), RecipeCategory.MISC, ModBlocks.GABBRO_PAVED_BRICKS.get())
+                .unlockedBy("has_GABBRO", inventoryTrigger(ItemPredicate.Builder.item().
+                        of(ModBlocks.GABBRO.get()).build()))
+                .save(pWriter);
+
+        SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.GABBRO.get()), RecipeCategory.MISC, ModBlocks.GABBRO_PILLAR.get())
+                .unlockedBy("has_GABBRO", inventoryTrigger(ItemPredicate.Builder.item().
+                        of(ModBlocks.GABBRO.get()).build()))
+                .save(pWriter);
+
+        SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.GABBRO.get()), RecipeCategory.MISC, ModBlocks.GABBRO_FANCY_BRICKS.get())
+                .unlockedBy("has_GABBRO", inventoryTrigger(ItemPredicate.Builder.item().
+                        of(ModBlocks.GABBRO.get()).build()))
+                .save(pWriter);
+
+        SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.GABBRO.get()), RecipeCategory.MISC, ModBlocks.GABBRO_CHISELED_BRICKS.get())
+                .unlockedBy("has_GABBRO", inventoryTrigger(ItemPredicate.Builder.item().
+                        of(ModBlocks.GABBRO.get()).build()))
+                .save(pWriter);
+
+        SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.GABBRO.get()), RecipeCategory.MISC, ModBlocks.GABBRO_SLAB.get())
+                .unlockedBy("has_GABBRO", inventoryTrigger(ItemPredicate.Builder.item().
+                        of(ModBlocks.GABBRO.get()).build()))
+                .save(pWriter);
+
+        SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.GABBRO.get()), RecipeCategory.MISC, ModBlocks.GABBRO_POLISHED_SLAB.get())
+                .unlockedBy("has_GABBRO", inventoryTrigger(ItemPredicate.Builder.item().
+                        of(ModBlocks.GABBRO.get()).build()))
+                .save(pWriter);
+
+        SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.GABBRO.get()), RecipeCategory.MISC, ModBlocks.GABBRO_BRICK_SLAB.get())
+                .unlockedBy("has_GABBRO", inventoryTrigger(ItemPredicate.Builder.item().
+                        of(ModBlocks.GABBRO.get()).build()))
+                .save(pWriter);
+
+        SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.GABBRO.get()), RecipeCategory.MISC, ModBlocks.GABBRO_FANCY_BRICK_SLAB.get())
+                .unlockedBy("has_GABBRO", inventoryTrigger(ItemPredicate.Builder.item().
+                        of(ModBlocks.GABBRO.get()).build()))
+                .save(pWriter);
+
+        SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.GABBRO.get()), RecipeCategory.MISC, ModBlocks.GABBRO_LAYERED_SLAB.get())
+                .unlockedBy("has_GABBRO", inventoryTrigger(ItemPredicate.Builder.item().
+                        of(ModBlocks.GABBRO.get()).build()))
+                .save(pWriter);
+
+        SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.GABBRO_COBBLESTONE.get()), RecipeCategory.MISC, ModBlocks.GABBRO_COBBLESTONE_SLAB.get())
+                .unlockedBy("has_GABBRO", inventoryTrigger(ItemPredicate.Builder.item().
+                        of(ModBlocks.GABBRO.get()).build()))
+                .save(pWriter);
+
+        SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.GABBRO.get()), RecipeCategory.MISC, ModBlocks.GABBRO_STAIRS.get())
+                .unlockedBy("has_GABBRO", inventoryTrigger(ItemPredicate.Builder.item().
+                        of(ModBlocks.GABBRO.get()).build()))
+                .save(pWriter);
+
+        SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.GABBRO.get()), RecipeCategory.MISC, ModBlocks.GABBRO_BRICK_STAIRS.get())
+                .unlockedBy("has_GABBRO", inventoryTrigger(ItemPredicate.Builder.item().
+                        of(ModBlocks.GABBRO.get()).build()))
+                .save(pWriter);
+
+        SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.GABBRO.get()), RecipeCategory.MISC, ModBlocks.GABBRO_FANCY_BRICK_STAIRS.get())
+                .unlockedBy("has_GABBRO", inventoryTrigger(ItemPredicate.Builder.item().
+                        of(ModBlocks.GABBRO.get()).build()))
+                .save(pWriter);
+
+        SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.GABBRO.get()), RecipeCategory.MISC, ModBlocks.GABBRO_PAVED_BRICK_STAIRS.get())
+                .unlockedBy("has_GABBRO", inventoryTrigger(ItemPredicate.Builder.item().
+                        of(ModBlocks.GABBRO.get()).build()))
+                .save(pWriter);
+
+        SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.GABBRO.get()), RecipeCategory.MISC, ModBlocks.GABBRO_POLISHED_STAIRS.get())
+                .unlockedBy("has_GABBRO", inventoryTrigger(ItemPredicate.Builder.item().
+                        of(ModBlocks.GABBRO.get()).build()))
+                .save(pWriter);
+
+        SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.GABBRO_COBBLESTONE.get()), RecipeCategory.MISC, ModBlocks.GABBRO_COBBLESTONE_STAIRS.get())
+                .unlockedBy("has_GABBRO", inventoryTrigger(ItemPredicate.Builder.item().
+                        of(ModBlocks.GABBRO.get()).build()))
+                .save(pWriter);
+
+        SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.GABBRO.get()), RecipeCategory.MISC, ModBlocks.GABBRO_BRICK_WALL.get())
+                .unlockedBy("has_GABBRO", inventoryTrigger(ItemPredicate.Builder.item().
+                        of(ModBlocks.GABBRO.get()).build()))
+                .save(pWriter);
+
+        SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.GABBRO.get()), RecipeCategory.MISC, ModBlocks.GABBRO_WALL.get())
+                .unlockedBy("has_GABBRO", inventoryTrigger(ItemPredicate.Builder.item().
+                        of(ModBlocks.GABBRO.get()).build()))
+                .save(pWriter);
+
+        SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.GABBRO.get()), RecipeCategory.MISC, ModBlocks.GABBRO_POLISHED_WALL.get())
+                .unlockedBy("has_GABBRO", inventoryTrigger(ItemPredicate.Builder.item().
+                        of(ModBlocks.GABBRO.get()).build()))
+                .save(pWriter);
+
+        SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.GABBRO.get()), RecipeCategory.MISC, ModBlocks.GABBRO_FANCY_BRICK_WALL.get())
+                .unlockedBy("has_GABBRO", inventoryTrigger(ItemPredicate.Builder.item().
+                        of(ModBlocks.GABBRO.get()).build()))
+                .save(pWriter);
+
+        SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.GABBRO.get()), RecipeCategory.MISC, ModBlocks.GABBRO_PAVED_BRICK_WALL.get())
+                .unlockedBy("has_GABBRO", inventoryTrigger(ItemPredicate.Builder.item().
+                        of(ModBlocks.GABBRO.get()).build()))
+                .save(pWriter);
+
+        SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.GABBRO_COBBLESTONE.get()), RecipeCategory.MISC, ModBlocks.GABBRO_COBBLESTONE_WALL.get())
+                .unlockedBy("has_GABBRO", inventoryTrigger(ItemPredicate.Builder.item().
+                        of(ModBlocks.GABBRO.get()).build()))
+                .save(pWriter);
     }
 
 

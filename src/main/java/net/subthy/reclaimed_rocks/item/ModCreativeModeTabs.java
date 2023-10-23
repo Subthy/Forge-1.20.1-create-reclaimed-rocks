@@ -43,6 +43,7 @@ public class ModCreativeModeTabs {
                         output.accept(ModBlocks.DOLOMITE_COBBLESTONE_WALL.get());
                         output.accept(ModBlocks.DOLOMITE_FANCY_BRICK_WALL.get());
                         output.accept(ModBlocks.DOLOMITE_WALL.get());
+                        output.accept(ModBlocks.DOLOMITE_LAYERED_SLAB.get());
 
                         output.accept(ModBlocks.WEATHERED_LIMESTONE.get());
                         output.accept(ModBlocks.WEATHERED_LIMESTONE_PILLAR.get());
@@ -69,6 +70,7 @@ public class ModCreativeModeTabs {
                         output.accept(ModBlocks.WEATHERED_LIMESTONE_COBBLESTONE_WALL.get());
                         output.accept(ModBlocks.WEATHERED_LIMESTONE_FANCY_BRICK_WALL.get());
                         output.accept(ModBlocks.WEATHERED_LIMESTONE_WALL.get());
+                        output.accept(ModBlocks.WEATHERED_LIMESTONE_LAYERED_SLAB.get());
 
                         output.accept(ModBlocks.GABBRO.get());
                         output.accept(ModBlocks.GABBRO_PILLAR.get());
@@ -95,6 +97,7 @@ public class ModCreativeModeTabs {
                         output.accept(ModBlocks.GABBRO_COBBLESTONE_WALL.get());
                         output.accept(ModBlocks.GABBRO_FANCY_BRICK_WALL.get());
                         output.accept(ModBlocks.GABBRO_WALL.get());
+                        output.accept(ModBlocks.GABBRO_LAYERED_SLAB.get());
                     }).build());
 
 

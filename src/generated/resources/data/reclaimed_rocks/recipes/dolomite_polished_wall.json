@@ -1,18 +1,8 @@
 {
-  "type": "minecraft:crafting_shaped",
-  "category": "misc",
-  "key": {
-    "A": {
-      "item": "reclaimed_rocks:dolomite_polished_block"
-    }
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "reclaimed_rocks:dolomite"
   },
-  "pattern": [
-    "AAA",
-    "AAA"
-  ],
-  "result": {
-    "count": 6,
-    "item": "reclaimed_rocks:dolomite_polished_wall"
-  },
-  "show_notification": true
+  "result": "reclaimed_rocks:dolomite_polished_wall"
 }
