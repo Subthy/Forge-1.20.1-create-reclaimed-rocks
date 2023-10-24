@@ -17,22 +17,22 @@ import java.util.List;
 public class ModPlacedFeatures {
 
     public static final ResourceKey<PlacedFeature> Dolomite_Placed_Key = registerKey("dolomite_placed");
-    public static final ResourceKey<PlacedFeature> Weathered_Limestone_Placed_Key = registerKey("dolomite_placed");
-    public static final ResourceKey<PlacedFeature> Gabbro_Placed_Key = registerKey("dolomite_placed");
+    public static final ResourceKey<PlacedFeature> Weathered_Limestone_Placed_Key = registerKey("weathered_limestone_placed");
+    public static final ResourceKey<PlacedFeature> Gabbro_Placed_Key = registerKey("gabbro_placed");
 
     public static void bootstrap(BootstapContext<PlacedFeature> context) {
         HolderGetter<ConfiguredFeature<?, ?>> configuredFeature = context.lookup(Registries.CONFIGURED_FEATURE);
 
         register(context, Dolomite_Placed_Key, configuredFeature.getOrThrow(ModConfiguredFeatures.Dolomite_Key),
-                ModOrePlacement.commonOrePlacement(8,
+                ModOrePlacement.commonOrePlacement(4,
                         HeightRangePlacement.uniform(VerticalAnchor.absolute(0), VerticalAnchor.absolute(100))));
 
         register(context, Weathered_Limestone_Placed_Key, configuredFeature.getOrThrow(ModConfiguredFeatures.Weathered_Limestone_Key),
-                ModOrePlacement.commonOrePlacement(8,
+                ModOrePlacement.commonOrePlacement(4,
                         HeightRangePlacement.uniform(VerticalAnchor.absolute(0), VerticalAnchor.absolute(100))));
 
         register(context, Gabbro_Placed_Key, configuredFeature.getOrThrow(ModConfiguredFeatures.Gabbro_Key),
-                ModOrePlacement.commonOrePlacement(8,
+                ModOrePlacement.commonOrePlacement(4,
                         HeightRangePlacement.uniform(VerticalAnchor.absolute(0), VerticalAnchor.absolute(100))));
     }
 

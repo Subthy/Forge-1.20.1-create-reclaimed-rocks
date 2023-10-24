@@ -38,9 +38,9 @@ public class ModConfiguredFeatures {
         List<OreConfiguration.TargetBlockState> overworldGabbro = List.of(OreConfiguration.target(stoneReplaceabeles,
                 ModBlocks.GABBRO.get().defaultBlockState()));
 
-        register(context, Dolomite_Key, Feature.ORE, new OreConfiguration(overworldDolomite, 30));
-        register(context, Weathered_Limestone_Key, Feature.ORE, new OreConfiguration(overworldWeathered_Limestone, 30));
-        register(context, Gabbro_Key, Feature.ORE, new OreConfiguration(overworldGabbro, 30));
+        register(context, Dolomite_Key, Feature.ORE, new OreConfiguration(overworldDolomite, 60));
+        register(context, Weathered_Limestone_Key, Feature.ORE, new OreConfiguration(overworldWeathered_Limestone, 60));
+        register(context, Gabbro_Key, Feature.ORE, new OreConfiguration(overworldGabbro, 60));
     }
 
     public static ResourceKey<ConfiguredFeature<?, ?>> registerKey(String name) {
