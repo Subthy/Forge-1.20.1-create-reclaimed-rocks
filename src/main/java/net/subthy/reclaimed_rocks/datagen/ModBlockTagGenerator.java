@@ -120,7 +120,6 @@ public class ModBlockTagGenerator extends BlockTagsProvider {
                         ModBlocks.GABBRO_WALL.get(),
                         ModBlocks.GABBRO_BRICK_WALL.get()
                 );
-// yup
     }
 
     @Override
