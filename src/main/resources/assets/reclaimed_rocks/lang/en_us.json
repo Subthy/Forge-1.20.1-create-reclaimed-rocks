@@ -15,6 +15,7 @@
   "block.reclaimed_rocks.dolomite_cobblestone_slab": "Dolomite Cobblestone Slab",
   "block.reclaimed_rocks.dolomite_brick_slab": "Dolomite Brick Slab",
   "block.reclaimed_rocks.dolomite_fancy_brick_slab": "Dolomite Fancy Brick Slab",
+  "block.reclaimed_rocks.dolomite_layered_slab": "Dolomite Layered Slab",
   "block.reclaimed_rocks.dolomite_brick_wall": "Dolomite Brick Wall",
   "block.reclaimed_rocks.dolomite_polished_wall": "Dolomite Polished Wall",
   "block.reclaimed_rocks.dolomite_paved_brick_wall": "Dolomite Paved Brick Wall",
@@ -27,7 +28,6 @@
   "block.reclaimed_rocks.dolomite_paved_brick_stairs": "Dolomite Paved Brick Stairs",
   "block.reclaimed_rocks.dolomite_brick_stairs": "Dolomite Brick Stairs",
   "block.reclaimed_rocks.dolomite_wall": "Dolomite Wall",
-  "block.reclaimed_rocks.dolomite_layered_slab": "Dolomite Layered Slab",
 
   "block.reclaimed_rocks.weathered_limestone": "Weathered Limestone",
   "block.reclaimed_rocks.weathered_limestone_cobblestone": "Weathered Limestone Cobblestone",
@@ -43,6 +43,7 @@
   "block.reclaimed_rocks.weathered_limestone_cobblestone_slab": "Weathered Limestone Cobblestone Slab",
   "block.reclaimed_rocks.weathered_limestone_brick_slab": "Weathered Limestone Brick Slab",
   "block.reclaimed_rocks.weathered_limestone_fancy_brick_slab": "Weathered Limestone Fancy Brick Slab",
+  "block.reclaimed_rocks.weathered_limestone_layered_slab": "Weathered Limestone Layered Slab",
   "block.reclaimed_rocks.weathered_limestone_brick_wall": "Weathered Limestone Brick Wall",
   "block.reclaimed_rocks.weathered_limestone_polished_wall": "Weathered Limestone Polished Wall",
   "block.reclaimed_rocks.weathered_limestone_paved_brick_wall": "Weathered Limestone Paved Brick Wall",
@@ -55,7 +56,6 @@
   "block.reclaimed_rocks.weathered_limestone_paved_brick_stairs": "Weathered Limestone Paved Brick Stairs",
   "block.reclaimed_rocks.weathered_limestone_brick_stairs": "Weathered Limestone Brick Stairs",
   "block.reclaimed_rocks.weathered_limestone_wall": "Weathered Limestone Wall",
-  "block.reclaimed_rocks.weathered_limestone_layered_slab": "Weathered Limestone Layered Slab",
 
   "block.reclaimed_rocks.gabbro": "Gabbro",
   "block.reclaimed_rocks.gabbro_cobblestone": "Gabbro Cobblestone",
@@ -71,6 +71,7 @@
   "block.reclaimed_rocks.gabbro_cobblestone_slab": "Gabbro Cobblestone Slab",
   "block.reclaimed_rocks.gabbro_brick_slab": "Gabbro Brick Slab",
   "block.reclaimed_rocks.gabbro_fancy_brick_slab": "Gabbro Fancy Brick Slab",
+  "block.reclaimed_rocks.gabbro_layered_slab": "Gabbro Layered Slab",
   "block.reclaimed_rocks.gabbro_brick_wall": "Gabbro Brick Wall",
   "block.reclaimed_rocks.gabbro_polished_wall": "Gabbro Polished Wall",
   "block.reclaimed_rocks.gabbro_paved_brick_wall": "Gabbro Paved Brick Wall",
@@ -82,6 +83,5 @@
   "block.reclaimed_rocks.gabbro_fancy_brick_stairs": "Gabbro Fancy Brick Stairs",
   "block.reclaimed_rocks.gabbro_paved_brick_stairs": "Gabbro Paved Brick Stairs",
   "block.reclaimed_rocks.gabbro_brick_stairs": "Gabbro Brick Stairs",
-  "block.reclaimed_rocks.gabbro_wall": "Gabbro Wall",
-  "block.reclaimed_rocks.gabbro_layered_slab": "Gabbro Layered Slab"
+  "block.reclaimed_rocks.gabbro_wall": "Gabbro Wall"
 }
