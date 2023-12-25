@@ -33,7 +33,7 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
     protected void buildRecipes(Consumer<FinishedRecipe> pWriter) {
         // Shapped Recipes
 
-        // Smelting
+        // Smelting Recipes
         oreSmelting(pWriter, DOLOMITE_SMELTABLES, RecipeCategory.MISC, ModBlocks.DOLOMITE.get(), 0.25f, 200, "dolomite");
         oreSmelting(pWriter, WEATHERED_LIMESTONE_SMELTABLES, RecipeCategory.MISC, ModBlocks.WEATHERED_LIMESTONE.get(), 0.25f, 200, "weathered_limestone");
         oreSmelting(pWriter, GOBBRO_SMELTABLES, RecipeCategory.MISC, ModBlocks.GABBRO.get(), 0.25f, 200, "gabbro");
