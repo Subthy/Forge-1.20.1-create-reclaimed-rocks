@@ -38,7 +38,7 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
         oreSmelting(pWriter, WEATHERED_LIMESTONE_SMELTABLES, RecipeCategory.MISC, ModBlocks.WEATHERED_LIMESTONE.get(), 0.25f, 200, "weathered_limestone");
         oreSmelting(pWriter, GOBBRO_SMELTABLES, RecipeCategory.MISC, ModBlocks.GABBRO.get(), 0.25f, 200, "gabbro");
 
-        // Stonecutting
+        // Stonecutting Recipes
             // Dolomite
         SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.DOLOMITE.get()), RecipeCategory.MISC, ModBlocks.DOLOMITE_LAYERED_BLOCK.get())
                 .unlockedBy("has_dolomite", inventoryTrigger(ItemPredicate.Builder.item().
