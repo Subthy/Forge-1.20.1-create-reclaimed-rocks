@@ -84,6 +84,9 @@ public class ModBlocks {
         // Dolomite
     public static final RegistryObject<Block> DOLOMITE_SLAB = registerBlock("dolomite_slab",
             () -> new SlabBlock(BlockBehaviour.Properties.copy(Blocks.GRANITE_SLAB).sound(SoundType.STONE)));
+
+    public static final RegistryObject<Block> DOLOMITE_PAVED_BRICK_SLAB = registerBlock("dolomite_paved_brick_slab",
+            () -> new SlabBlock(BlockBehaviour.Properties.copy(Blocks.GRANITE_SLAB).sound(SoundType.STONE)));
     public static final RegistryObject<Block> DOLOMITE_COBBLESTONE_SLAB = registerBlock("dolomite_cobblestone_slab",
             () -> new SlabBlock(BlockBehaviour.Properties.copy(Blocks.GRANITE_SLAB).sound(SoundType.STONE)));
     public static final RegistryObject<Block> DOLOMITE_POLISHED_SLAB = registerBlock("dolomite_polished_slab",
@@ -97,6 +100,9 @@ public class ModBlocks {
         //WEATHERED_LIMESTONE
         public static final RegistryObject<Block> WEATHERED_LIMESTONE_SLAB = registerBlock("weathered_limestone_slab",
                 () -> new SlabBlock(BlockBehaviour.Properties.copy(Blocks.GRANITE_SLAB).sound(SoundType.STONE)));
+
+    public static final RegistryObject<Block> WEATHERED_LIMESTONE_PAVED_BRICK_SLAB = registerBlock("weathered_limestone_paved_brick_slab",
+            () -> new SlabBlock(BlockBehaviour.Properties.copy(Blocks.GRANITE_SLAB).sound(SoundType.STONE)));
     public static final RegistryObject<Block> WEATHERED_LIMESTONE_COBBLESTONE_SLAB = registerBlock("weathered_limestone_cobblestone_slab",
             () -> new SlabBlock(BlockBehaviour.Properties.copy(Blocks.GRANITE_SLAB).sound(SoundType.STONE)));
     public static final RegistryObject<Block> WEATHERED_LIMESTONE_POLISHED_SLAB = registerBlock("weathered_limestone_polished_slab",
@@ -110,6 +116,8 @@ public class ModBlocks {
         // GABBRO
         public static final RegistryObject<Block> GABBRO_SLAB = registerBlock("gabbro_slab",
                 () -> new SlabBlock(BlockBehaviour.Properties.copy(Blocks.GRANITE_SLAB).sound(SoundType.STONE)));
+    public static final RegistryObject<Block> GABBRO_PAVED_BRICK_SLAB = registerBlock("gabbro_paved_brick_slab",
+            () -> new SlabBlock(BlockBehaviour.Properties.copy(Blocks.GRANITE_SLAB).sound(SoundType.STONE)));
     public static final RegistryObject<Block> GABBRO_COBBLESTONE_SLAB = registerBlock("gabbro_cobblestone_slab",
             () -> new SlabBlock(BlockBehaviour.Properties.copy(Blocks.GRANITE_SLAB).sound(SoundType.STONE)));
     public static final RegistryObject<Block> GABBRO_POLISHED_SLAB = registerBlock("gabbro_polished_slab",
@@ -124,6 +132,10 @@ public class ModBlocks {
     // Stairs
         // DOLOMITE
     public static final RegistryObject<Block> DOLOMITE_STAIRS = registerBlock("dolomite_stairs",
+            () -> new StairBlock(() -> ModBlocks.DOLOMITE.get().defaultBlockState(),
+                    BlockBehaviour.Properties.copy(Blocks.GRANITE_STAIRS).sound(SoundType.STONE)));
+
+    public static final RegistryObject<Block> DOLOMITE_LAYERED_STAIRS = registerBlock("dolomite_layered_stairs",
             () -> new StairBlock(() -> ModBlocks.DOLOMITE.get().defaultBlockState(),
                     BlockBehaviour.Properties.copy(Blocks.GRANITE_STAIRS).sound(SoundType.STONE)));
     public static final RegistryObject<Block> DOLOMITE_BRICK_STAIRS = registerBlock("dolomite_brick_stairs",
@@ -145,6 +157,9 @@ public class ModBlocks {
         public static final RegistryObject<Block> WEATHERED_LIMESTONE_STAIRS = registerBlock("weathered_limestone_stairs",
                 () -> new StairBlock(() -> ModBlocks.WEATHERED_LIMESTONE.get().defaultBlockState(),
                         BlockBehaviour.Properties.copy(Blocks.GRANITE_STAIRS).sound(SoundType.STONE)));
+    public static final RegistryObject<Block> WEATHERED_LIMESTONE_LAYERED_STAIRS = registerBlock("weathered_limestone_layered_stairs",
+            () -> new StairBlock(() -> ModBlocks.WEATHERED_LIMESTONE.get().defaultBlockState(),
+                    BlockBehaviour.Properties.copy(Blocks.GRANITE_STAIRS).sound(SoundType.STONE)));
     public static final RegistryObject<Block> WEATHERED_LIMESTONE_BRICK_STAIRS = registerBlock("weathered_limestone_brick_stairs",
             () -> new StairBlock(() -> ModBlocks.WEATHERED_LIMESTONE.get().defaultBlockState(),
                     BlockBehaviour.Properties.copy(Blocks.GRANITE_STAIRS).sound(SoundType.STONE)));
@@ -162,6 +177,9 @@ public class ModBlocks {
                     BlockBehaviour.Properties.copy(Blocks.GRANITE_STAIRS).sound(SoundType.STONE)));
     // GABBRO
     public static final RegistryObject<Block> GABBRO_STAIRS = registerBlock("gabbro_stairs",
+            () -> new StairBlock(() -> ModBlocks.GABBRO.get().defaultBlockState(),
+                    BlockBehaviour.Properties.copy(Blocks.GRANITE_STAIRS).sound(SoundType.STONE)));
+    public static final RegistryObject<Block> GABBRO_LAYERED_STAIRS = registerBlock("gabbro_layered_stairs",
             () -> new StairBlock(() -> ModBlocks.GABBRO.get().defaultBlockState(),
                     BlockBehaviour.Properties.copy(Blocks.GRANITE_STAIRS).sound(SoundType.STONE)));
     public static final RegistryObject<Block> GABBRO_BRICK_STAIRS = registerBlock("gabbro_brick_stairs",
@@ -184,6 +202,8 @@ public class ModBlocks {
         // DOLOMITE
     public static final RegistryObject<Block> DOLOMITE_BRICK_WALL = registerBlock("dolomite_brick_wall",
             () -> new WallBlock(BlockBehaviour.Properties.copy(Blocks.STONE_BRICK_WALL)));
+    public static final RegistryObject<Block> DOLOMITE_LAYERED_WALL = registerBlock("dolomite_layered_wall",
+            () -> new WallBlock(BlockBehaviour.Properties.copy(Blocks.STONE_BRICK_WALL)));
     public static final RegistryObject<Block> DOLOMITE_WALL = registerBlock("dolomite_wall",
             () -> new WallBlock(BlockBehaviour.Properties.copy(Blocks.STONE_BRICK_WALL)));
     public static final RegistryObject<Block> DOLOMITE_COBBLESTONE_WALL = registerBlock("dolomite_cobblestone_wall",
@@ -197,6 +217,8 @@ public class ModBlocks {
         // WEATHERED_LIMESTONE
         public static final RegistryObject<Block> WEATHERED_LIMESTONE_BRICK_WALL = registerBlock("weathered_limestone_brick_wall",
                 () -> new WallBlock(BlockBehaviour.Properties.copy(Blocks.STONE_BRICK_WALL)));
+    public static final RegistryObject<Block> WEATHERED_LIMESTONE_LAYERED_WALL = registerBlock("weathered_limestone_layered_wall",
+            () -> new WallBlock(BlockBehaviour.Properties.copy(Blocks.STONE_BRICK_WALL)));
     public static final RegistryObject<Block> WEATHERED_LIMESTONE_COBBLESTONE_WALL = registerBlock("weathered_limestone_cobblestone_wall",
             () -> new WallBlock(BlockBehaviour.Properties.copy(Blocks.STONE_BRICK_WALL)));
     public static final RegistryObject<Block> WEATHERED_LIMESTONE_POLISHED_WALL = registerBlock("weathered_limestone_polished_wall",
@@ -209,6 +231,8 @@ public class ModBlocks {
             () -> new WallBlock(BlockBehaviour.Properties.copy(Blocks.STONE_BRICK_WALL)));
     // GABBRO
     public static final RegistryObject<Block> GABBRO_BRICK_WALL = registerBlock("gabbro_brick_wall",
+            () -> new WallBlock(BlockBehaviour.Properties.copy(Blocks.STONE_BRICK_WALL)));
+    public static final RegistryObject<Block> GABBRO_LAYERED_WALL = registerBlock("gabbro_layered_wall",
             () -> new WallBlock(BlockBehaviour.Properties.copy(Blocks.STONE_BRICK_WALL)));
     public static final RegistryObject<Block> GABBRO_COBBLESTONE_WALL = registerBlock("gabbro_cobblestone_wall",
             () -> new WallBlock(BlockBehaviour.Properties.copy(Blocks.STONE_BRICK_WALL)));
