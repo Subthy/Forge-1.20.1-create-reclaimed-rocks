@@ -30,6 +30,5 @@
     "recipes": [
       "reclaimed_rocks:weathered_limestone_fancy_brick_wall"
     ]
-  },
-  "sends_telemetry_event": false
+  }
 }

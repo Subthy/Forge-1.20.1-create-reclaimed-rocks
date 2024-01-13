@@ -32,15 +32,15 @@ public class ModConfiguredFeatures {
         RuleTest stoneReplaceabeles = new TagMatchTest(BlockTags.STONE_ORE_REPLACEABLES);
 
         List<OreConfiguration.TargetBlockState> overworldDolomite = List.of(OreConfiguration.target(stoneReplaceabeles,
-                        ModBlocks.DOLOMITE.get().defaultBlockState()));
+                ModBlocks.DOLOMITE.get().defaultBlockState()));
         List<OreConfiguration.TargetBlockState> overworldWeathered_Limestone = List.of(OreConfiguration.target(stoneReplaceabeles,
                 ModBlocks.WEATHERED_LIMESTONE.get().defaultBlockState()));
         List<OreConfiguration.TargetBlockState> overworldGabbro = List.of(OreConfiguration.target(stoneReplaceabeles,
                 ModBlocks.GABBRO.get().defaultBlockState()));
 
-        register(context, Dolomite_Key, Feature.ORE, new OreConfiguration(overworldDolomite, 60));
-        register(context, Weathered_Limestone_Key, Feature.ORE, new OreConfiguration(overworldWeathered_Limestone, 60));
-        register(context, Gabbro_Key, Feature.ORE, new OreConfiguration(overworldGabbro, 60));
+        register(context, Dolomite_Key, Feature.ORE, new OreConfiguration(overworldDolomite, 40));
+        register(context, Weathered_Limestone_Key, Feature.ORE, new OreConfiguration(overworldWeathered_Limestone, 40));
+        register(context, Gabbro_Key, Feature.ORE, new OreConfiguration(overworldGabbro, 40));
     }
 
     public static ResourceKey<ConfiguredFeature<?, ?>> registerKey(String name) {

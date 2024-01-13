@@ -30,6 +30,5 @@
     "recipes": [
       "reclaimed_rocks:weathered_limestone_chiseled_bricks"
     ]
-  },
-  "sends_telemetry_event": false
+  }
 }

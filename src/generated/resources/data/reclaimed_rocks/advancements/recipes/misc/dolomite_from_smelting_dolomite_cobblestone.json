@@ -30,6 +30,5 @@
     "recipes": [
       "reclaimed_rocks:dolomite_from_smelting_dolomite_cobblestone"
     ]
-  },
-  "sends_telemetry_event": false
+  }
 }

@@ -30,6 +30,5 @@
     "recipes": [
       "reclaimed_rocks:dolomite_pillar"
     ]
-  },
-  "sends_telemetry_event": false
+  }
 }

@@ -30,6 +30,5 @@
     "recipes": [
       "reclaimed_rocks:dolomite_cobblestone_slab"
     ]
-  },
-  "sends_telemetry_event": false
+  }
 }

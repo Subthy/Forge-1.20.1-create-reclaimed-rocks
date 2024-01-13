@@ -28,6 +28,7 @@ public class ModCreativeModeTabs {
                             output.accept(ModBlocks.DOLOMITE_BRICKS.get());
                             output.accept(ModBlocks.DOLOMITE_COBBLESTONE.get());
                             output.accept(ModBlocks.DOLOMITE_PAVED_BRICKS.get());
+                            output.accept(ModBlocks.DOLOMITE_PAVED_BRICK_SLAB.get());
                             output.accept(ModBlocks.DOLOMITE_POLISHED_BLOCK.get());
                             output.accept(ModBlocks.DOLOMITE_FANCY_BRICKS.get());
                             output.accept(ModBlocks.DOLOMITE_BRICK_SLAB.get());
@@ -37,16 +38,19 @@ public class ModCreativeModeTabs {
                             output.accept(ModBlocks.DOLOMITE_COBBLESTONE_SLAB.get());
                             output.accept(ModBlocks.DOLOMITE_LAYERED_SLAB.get());
                             output.accept(ModBlocks.DOLOMITE_COBBLESTONE_STAIRS.get());
+                            output.accept(ModBlocks.DOLOMITE_LAYERED_STAIRS.get());
                             output.accept(ModBlocks.DOLOMITE_FANCY_BRICK_STAIRS.get());
                             output.accept(ModBlocks.DOLOMITE_BRICK_STAIRS.get());
                             output.accept(ModBlocks.DOLOMITE_STAIRS.get());
                             output.accept(ModBlocks.DOLOMITE_PAVED_BRICK_STAIRS.get());
+                            output.accept(ModBlocks.DOLOMITE_POLISHED_STAIRS.get());
                             output.accept(ModBlocks.DOLOMITE_BRICK_WALL.get());
                             output.accept(ModBlocks.DOLOMITE_POLISHED_WALL.get());
                             output.accept(ModBlocks.DOLOMITE_PAVED_BRICK_WALL.get());
                             output.accept(ModBlocks.DOLOMITE_COBBLESTONE_WALL.get());
                             output.accept(ModBlocks.DOLOMITE_FANCY_BRICK_WALL.get());
                             output.accept(ModBlocks.DOLOMITE_WALL.get());
+                            output.accept(ModBlocks.DOLOMITE_LAYERED_WALL.get());
 
                             output.accept(ModBlocks.WEATHERED_LIMESTONE.get());
                             output.accept(ModBlocks.WEATHERED_LIMESTONE_PILLAR.get());
@@ -55,6 +59,7 @@ public class ModCreativeModeTabs {
                             output.accept(ModBlocks.WEATHERED_LIMESTONE_BRICKS.get());
                             output.accept(ModBlocks.WEATHERED_LIMESTONE_COBBLESTONE.get());
                             output.accept(ModBlocks.WEATHERED_LIMESTONE_PAVED_BRICKS.get());
+                            output.accept(ModBlocks.WEATHERED_LIMESTONE_PAVED_BRICK_SLAB.get());
                             output.accept(ModBlocks.WEATHERED_LIMESTONE_POLISHED_BLOCK.get());
                             output.accept(ModBlocks.WEATHERED_LIMESTONE_FANCY_BRICKS.get());
                             output.accept(ModBlocks.WEATHERED_LIMESTONE_BRICK_SLAB.get());
@@ -64,16 +69,19 @@ public class ModCreativeModeTabs {
                             output.accept(ModBlocks.WEATHERED_LIMESTONE_COBBLESTONE_SLAB.get());
                             output.accept(ModBlocks.WEATHERED_LIMESTONE_LAYERED_SLAB.get());
                             output.accept(ModBlocks.WEATHERED_LIMESTONE_COBBLESTONE_STAIRS.get());
+                            output.accept(ModBlocks.WEATHERED_LIMESTONE_LAYERED_STAIRS.get());
                             output.accept(ModBlocks.WEATHERED_LIMESTONE_FANCY_BRICK_STAIRS.get());
                             output.accept(ModBlocks.WEATHERED_LIMESTONE_BRICK_STAIRS.get());
                             output.accept(ModBlocks.WEATHERED_LIMESTONE_STAIRS.get());
                             output.accept(ModBlocks.WEATHERED_LIMESTONE_PAVED_BRICK_STAIRS.get());
+                            output.accept(ModBlocks.WEATHERED_LIMESTONE_POLISHED_STAIRS.get());
                             output.accept(ModBlocks.WEATHERED_LIMESTONE_BRICK_WALL.get());
                             output.accept(ModBlocks.WEATHERED_LIMESTONE_POLISHED_WALL.get());
                             output.accept(ModBlocks.WEATHERED_LIMESTONE_PAVED_BRICK_WALL.get());
                             output.accept(ModBlocks.WEATHERED_LIMESTONE_COBBLESTONE_WALL.get());
                             output.accept(ModBlocks.WEATHERED_LIMESTONE_FANCY_BRICK_WALL.get());
                             output.accept(ModBlocks.WEATHERED_LIMESTONE_WALL.get());
+                            output.accept(ModBlocks.WEATHERED_LIMESTONE_LAYERED_WALL.get());
 
                             output.accept(ModBlocks.GABBRO.get());
                             output.accept(ModBlocks.GABBRO_PILLAR.get());
@@ -82,6 +90,7 @@ public class ModCreativeModeTabs {
                             output.accept(ModBlocks.GABBRO_BRICKS.get());
                             output.accept(ModBlocks.GABBRO_COBBLESTONE.get());
                             output.accept(ModBlocks.GABBRO_PAVED_BRICKS.get());
+                            output.accept(ModBlocks.GABBRO_PAVED_BRICK_SLAB.get());
                             output.accept(ModBlocks.GABBRO_POLISHED_BLOCK.get());
                             output.accept(ModBlocks.GABBRO_FANCY_BRICKS.get());
                             output.accept(ModBlocks.GABBRO_BRICK_SLAB.get());
@@ -91,16 +100,19 @@ public class ModCreativeModeTabs {
                             output.accept(ModBlocks.GABBRO_COBBLESTONE_SLAB.get());
                             output.accept(ModBlocks.GABBRO_LAYERED_SLAB.get());
                             output.accept(ModBlocks.GABBRO_COBBLESTONE_STAIRS.get());
+                            output.accept(ModBlocks.GABBRO_LAYERED_STAIRS.get());
                             output.accept(ModBlocks.GABBRO_FANCY_BRICK_STAIRS.get());
                             output.accept(ModBlocks.GABBRO_BRICK_STAIRS.get());
                             output.accept(ModBlocks.GABBRO_STAIRS.get());
                             output.accept(ModBlocks.GABBRO_PAVED_BRICK_STAIRS.get());
+                            output.accept(ModBlocks.GABBRO_POLISHED_STAIRS.get());
                             output.accept(ModBlocks.GABBRO_BRICK_WALL.get());
                             output.accept(ModBlocks.GABBRO_POLISHED_WALL.get());
                             output.accept(ModBlocks.GABBRO_PAVED_BRICK_WALL.get());
                             output.accept(ModBlocks.GABBRO_COBBLESTONE_WALL.get());
                             output.accept(ModBlocks.GABBRO_FANCY_BRICK_WALL.get());
                             output.accept(ModBlocks.GABBRO_WALL.get());
+                            output.accept(ModBlocks.GABBRO_LAYERED_WALL.get());
                         }).build());
     }
 }

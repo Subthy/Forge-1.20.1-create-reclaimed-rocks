@@ -30,6 +30,5 @@
     "recipes": [
       "reclaimed_rocks:gabbro_from_smelting_gabbro_cobblestone"
     ]
-  },
-  "sends_telemetry_event": false
+  }
 }

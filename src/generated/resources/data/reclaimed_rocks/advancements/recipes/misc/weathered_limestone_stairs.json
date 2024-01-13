@@ -30,6 +30,5 @@
     "recipes": [
       "reclaimed_rocks:weathered_limestone_stairs"
     ]
-  },
-  "sends_telemetry_event": false
+  }
 }

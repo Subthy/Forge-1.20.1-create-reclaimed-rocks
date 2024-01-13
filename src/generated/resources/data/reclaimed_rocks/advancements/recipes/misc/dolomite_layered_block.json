@@ -30,6 +30,5 @@
     "recipes": [
       "reclaimed_rocks:dolomite_layered_block"
     ]
-  },
-  "sends_telemetry_event": false
+  }
 }

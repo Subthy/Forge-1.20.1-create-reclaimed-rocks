@@ -99,7 +99,7 @@ public class ModBlockTagGenerator extends BlockTagsProvider {
                         ModBlocks.GABBRO_LAYERED_SLAB.get()
 
 
-                        );
+                );
         this.tag(BlockTags.WALLS)
                 .add(ModBlocks.DOLOMITE_BRICK_WALL.get(),
                         ModBlocks.DOLOMITE_COBBLESTONE_WALL.get(),
@@ -107,39 +107,45 @@ public class ModBlockTagGenerator extends BlockTagsProvider {
                         ModBlocks.DOLOMITE_POLISHED_WALL.get(),
                         ModBlocks.DOLOMITE_PAVED_BRICK_WALL.get(),
                         ModBlocks.DOLOMITE_WALL.get(),
+                        ModBlocks.DOLOMITE_LAYERED_WALL.get(),
                         ModBlocks.WEATHERED_LIMESTONE_COBBLESTONE_WALL.get(),
                         ModBlocks.WEATHERED_LIMESTONE_FANCY_BRICK_WALL.get(),
                         ModBlocks.WEATHERED_LIMESTONE_POLISHED_WALL.get(),
                         ModBlocks.WEATHERED_LIMESTONE_PAVED_BRICK_WALL.get(),
                         ModBlocks.WEATHERED_LIMESTONE_WALL.get(),
                         ModBlocks.WEATHERED_LIMESTONE_BRICK_WALL.get(),
+                        ModBlocks.WEATHERED_LIMESTONE_LAYERED_WALL.get(),
                         ModBlocks.GABBRO_COBBLESTONE_WALL.get(),
                         ModBlocks.GABBRO_FANCY_BRICK_WALL.get(),
                         ModBlocks.GABBRO_POLISHED_WALL.get(),
                         ModBlocks.GABBRO_PAVED_BRICK_WALL.get(),
                         ModBlocks.GABBRO_WALL.get(),
-                        ModBlocks.GABBRO_BRICK_WALL.get()
+                        ModBlocks.GABBRO_BRICK_WALL.get(),
+                        ModBlocks.GABBRO_LAYERED_WALL.get()
                 );
 
         this.tag(BlockTags.STAIRS)
                 .add(ModBlocks.DOLOMITE_STAIRS.get(),
                         ModBlocks.DOLOMITE_PAVED_BRICK_STAIRS.get(),
+                        ModBlocks.DOLOMITE_LAYERED_STAIRS.get(),
                         ModBlocks.DOLOMITE_COBBLESTONE_STAIRS.get(),
                         ModBlocks.DOLOMITE_FANCY_BRICK_STAIRS.get(),
                         ModBlocks.DOLOMITE_POLISHED_STAIRS.get(),
                         ModBlocks.WEATHERED_LIMESTONE_STAIRS.get(),
+                        ModBlocks.WEATHERED_LIMESTONE_LAYERED_STAIRS.get(),
                         ModBlocks.WEATHERED_LIMESTONE_BRICK_STAIRS.get(),
                         ModBlocks.WEATHERED_LIMESTONE_COBBLESTONE_STAIRS.get(),
                         ModBlocks.WEATHERED_LIMESTONE_FANCY_BRICK_STAIRS.get(),
                         ModBlocks.WEATHERED_LIMESTONE_PAVED_BRICK_STAIRS.get(),
                         ModBlocks.WEATHERED_LIMESTONE_POLISHED_STAIRS.get(),
                         ModBlocks.GABBRO_BRICK_STAIRS.get(),
+                        ModBlocks.GABBRO_LAYERED_STAIRS.get(),
                         ModBlocks.GABBRO_COBBLESTONE_STAIRS.get(),
                         ModBlocks.GABBRO_FANCY_BRICK_STAIRS.get(),
                         ModBlocks.GABBRO_PAVED_BRICK_STAIRS.get(),
                         ModBlocks.GABBRO_POLISHED_STAIRS.get(),
                         ModBlocks.GABBRO_STAIRS.get()
-        );
+                );
 
         this.tag(BlockTags.SLABS)
                 .add(ModBlocks.DOLOMITE_SLAB.get(),

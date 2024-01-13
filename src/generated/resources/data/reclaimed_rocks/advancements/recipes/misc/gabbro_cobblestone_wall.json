@@ -30,6 +30,5 @@
     "recipes": [
       "reclaimed_rocks:gabbro_cobblestone_wall"
     ]
-  },
-  "sends_telemetry_event": false
+  }
 }

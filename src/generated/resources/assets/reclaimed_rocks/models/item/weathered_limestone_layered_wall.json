@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/wall_inventory",
+  "textures": {
+    "wall": "reclaimed_rocks:block/weathered_limestone_layered_block"
+  }
+}
