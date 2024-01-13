@@ -24,15 +24,15 @@ public class ModPlacedFeatures {
         HolderGetter<ConfiguredFeature<?, ?>> configuredFeature = context.lookup(Registries.CONFIGURED_FEATURE);
 
         register(context, Dolomite_Placed_Key, configuredFeature.getOrThrow(ModConfiguredFeatures.Dolomite_Key),
-                ModOrePlacement.commonOrePlacement(4,
+                ModOrePlacement.commonOrePlacement(3,
                         HeightRangePlacement.uniform(VerticalAnchor.absolute(0), VerticalAnchor.absolute(100))));
 
         register(context, Weathered_Limestone_Placed_Key, configuredFeature.getOrThrow(ModConfiguredFeatures.Weathered_Limestone_Key),
-                ModOrePlacement.commonOrePlacement(4,
+                ModOrePlacement.commonOrePlacement(3,
                         HeightRangePlacement.uniform(VerticalAnchor.absolute(0), VerticalAnchor.absolute(100))));
 
         register(context, Gabbro_Placed_Key, configuredFeature.getOrThrow(ModConfiguredFeatures.Gabbro_Key),
-                ModOrePlacement.commonOrePlacement(4,
+                ModOrePlacement.commonOrePlacement(3,
                         HeightRangePlacement.uniform(VerticalAnchor.absolute(0), VerticalAnchor.absolute(100))));
     }
 
