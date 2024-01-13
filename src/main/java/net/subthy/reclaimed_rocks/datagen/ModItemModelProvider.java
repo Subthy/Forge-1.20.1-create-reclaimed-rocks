@@ -27,6 +27,7 @@ public class ModItemModelProvider extends ItemModelProvider {
         wallItem(ModBlocks.DOLOMITE_PAVED_BRICK_WALL, ModBlocks.DOLOMITE_PAVED_BRICKS);
         wallItem(ModBlocks.DOLOMITE_FANCY_BRICK_WALL, ModBlocks.DOLOMITE_FANCY_BRICKS);
         wallItem(ModBlocks.DOLOMITE_POLISHED_WALL, ModBlocks.DOLOMITE_POLISHED_BLOCK);
+        wallItem(ModBlocks.DOLOMITE_LAYERED_WALL, ModBlocks.DOLOMITE_LAYERED_BLOCK);
             // WEATHERED_LIMESTONE
         wallItem(ModBlocks.WEATHERED_LIMESTONE_BRICK_WALL, ModBlocks.WEATHERED_LIMESTONE_BRICKS);
         wallItem(ModBlocks.WEATHERED_LIMESTONE_COBBLESTONE_WALL, ModBlocks.WEATHERED_LIMESTONE_COBBLESTONE);
@@ -34,6 +35,7 @@ public class ModItemModelProvider extends ItemModelProvider {
         wallItem(ModBlocks.WEATHERED_LIMESTONE_FANCY_BRICK_WALL, ModBlocks.WEATHERED_LIMESTONE_FANCY_BRICKS);
         wallItem(ModBlocks.WEATHERED_LIMESTONE_POLISHED_WALL, ModBlocks.WEATHERED_LIMESTONE_POLISHED_BLOCK);
         wallItem(ModBlocks.WEATHERED_LIMESTONE_WALL, ModBlocks.WEATHERED_LIMESTONE);
+        wallItem(ModBlocks.WEATHERED_LIMESTONE_LAYERED_WALL, ModBlocks.WEATHERED_LIMESTONE_LAYERED_BLOCK);
             // GABBRO
         wallItem(ModBlocks.GABBRO_BRICK_WALL, ModBlocks.GABBRO_BRICKS);
         wallItem(ModBlocks.GABBRO_WALL, ModBlocks.GABBRO);
@@ -41,6 +43,7 @@ public class ModItemModelProvider extends ItemModelProvider {
         wallItem(ModBlocks.GABBRO_PAVED_BRICK_WALL, ModBlocks.GABBRO_PAVED_BRICKS);
         wallItem(ModBlocks.GABBRO_FANCY_BRICK_WALL, ModBlocks.GABBRO_FANCY_BRICKS);
         wallItem(ModBlocks.GABBRO_POLISHED_WALL, ModBlocks.GABBRO_POLISHED_BLOCK);
+        wallItem(ModBlocks.GABBRO_LAYERED_WALL, ModBlocks.GABBRO_LAYERED_BLOCK);
 
     }
 

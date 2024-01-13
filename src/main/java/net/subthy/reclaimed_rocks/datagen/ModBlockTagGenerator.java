@@ -107,18 +107,21 @@ public class ModBlockTagGenerator extends BlockTagsProvider {
                         ModBlocks.DOLOMITE_POLISHED_WALL.get(),
                         ModBlocks.DOLOMITE_PAVED_BRICK_WALL.get(),
                         ModBlocks.DOLOMITE_WALL.get(),
+                        ModBlocks.DOLOMITE_LAYERED_WALL.get(),
                         ModBlocks.WEATHERED_LIMESTONE_COBBLESTONE_WALL.get(),
                         ModBlocks.WEATHERED_LIMESTONE_FANCY_BRICK_WALL.get(),
                         ModBlocks.WEATHERED_LIMESTONE_POLISHED_WALL.get(),
                         ModBlocks.WEATHERED_LIMESTONE_PAVED_BRICK_WALL.get(),
                         ModBlocks.WEATHERED_LIMESTONE_WALL.get(),
                         ModBlocks.WEATHERED_LIMESTONE_BRICK_WALL.get(),
+                        ModBlocks.WEATHERED_LIMESTONE_LAYERED_WALL.get(),
                         ModBlocks.GABBRO_COBBLESTONE_WALL.get(),
                         ModBlocks.GABBRO_FANCY_BRICK_WALL.get(),
                         ModBlocks.GABBRO_POLISHED_WALL.get(),
                         ModBlocks.GABBRO_PAVED_BRICK_WALL.get(),
                         ModBlocks.GABBRO_WALL.get(),
-                        ModBlocks.GABBRO_BRICK_WALL.get()
+                        ModBlocks.GABBRO_BRICK_WALL.get(),
+                        ModBlocks.GABBRO_LAYERED_WALL.get()
                 );
 
         this.tag(BlockTags.STAIRS)

@@ -195,6 +195,7 @@ public class ModBlockStateProvider extends BlockStateProvider {
         wallBlock((WallBlock) ModBlocks.DOLOMITE_POLISHED_WALL.get(), blockTexture(ModBlocks.DOLOMITE_POLISHED_BLOCK.get()));
         wallBlock((WallBlock) ModBlocks.DOLOMITE_FANCY_BRICK_WALL.get(), blockTexture(ModBlocks.DOLOMITE_FANCY_BRICKS.get()));
         wallBlock((WallBlock) ModBlocks.DOLOMITE_COBBLESTONE_WALL.get(), blockTexture(ModBlocks.DOLOMITE_COBBLESTONE.get()));
+        wallBlock((WallBlock) ModBlocks.DOLOMITE_LAYERED_WALL.get(), blockTexture(ModBlocks.DOLOMITE_LAYERED_BLOCK.get()));
             // Limestone
         wallBlock((WallBlock) ModBlocks.WEATHERED_LIMESTONE_BRICK_WALL.get(), blockTexture(ModBlocks.WEATHERED_LIMESTONE_BRICKS.get()));
         wallBlock((WallBlock) ModBlocks.WEATHERED_LIMESTONE_WALL.get(), blockTexture(ModBlocks.WEATHERED_LIMESTONE.get()));
@@ -202,6 +203,7 @@ public class ModBlockStateProvider extends BlockStateProvider {
         wallBlock((WallBlock) ModBlocks.WEATHERED_LIMESTONE_POLISHED_WALL.get(), blockTexture(ModBlocks.WEATHERED_LIMESTONE_POLISHED_BLOCK.get()));
         wallBlock((WallBlock) ModBlocks.WEATHERED_LIMESTONE_FANCY_BRICK_WALL.get(), blockTexture(ModBlocks.WEATHERED_LIMESTONE_FANCY_BRICKS.get()));
         wallBlock((WallBlock) ModBlocks.WEATHERED_LIMESTONE_COBBLESTONE_WALL.get(), blockTexture(ModBlocks.WEATHERED_LIMESTONE_COBBLESTONE.get()));
+        wallBlock((WallBlock) ModBlocks.WEATHERED_LIMESTONE_LAYERED_WALL.get(), blockTexture(ModBlocks.WEATHERED_LIMESTONE_LAYERED_BLOCK.get()));
             // GABBRO
         wallBlock((WallBlock) ModBlocks.GABBRO_BRICK_WALL.get(), blockTexture(ModBlocks.GABBRO_BRICKS.get()));
         wallBlock((WallBlock) ModBlocks.GABBRO_WALL.get(), blockTexture(ModBlocks.GABBRO.get()));
@@ -209,6 +211,7 @@ public class ModBlockStateProvider extends BlockStateProvider {
         wallBlock((WallBlock) ModBlocks.GABBRO_POLISHED_WALL.get(), blockTexture(ModBlocks.GABBRO_POLISHED_BLOCK.get()));
         wallBlock((WallBlock) ModBlocks.GABBRO_FANCY_BRICK_WALL.get(), blockTexture(ModBlocks.GABBRO_FANCY_BRICKS.get()));
         wallBlock((WallBlock) ModBlocks.GABBRO_COBBLESTONE_WALL.get(), blockTexture(ModBlocks.GABBRO_COBBLESTONE.get()));
+        wallBlock((WallBlock) ModBlocks.GABBRO_LAYERED_WALL.get(), blockTexture(ModBlocks.GABBRO_LAYERED_BLOCK.get()));
     }
 
     private void blockItem(RegistryObject<Block> blockRegistryObject) {
