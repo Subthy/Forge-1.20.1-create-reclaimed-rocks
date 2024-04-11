@@ -19,6 +19,7 @@ import net.minecraft.world.level.levelgen.structure.templatesystem.RuleTest;
 import net.minecraft.world.level.levelgen.structure.templatesystem.TagMatchTest;
 import net.subthy.reclaimed_rocks.ReclaimedRocksMod;
 import net.subthy.reclaimed_rocks.block.ModBlocks;
+import net.subthy.reclaimed_rocks.config.ReclaimedRocksCommonConfigs;
 
 import java.util.List;
 
