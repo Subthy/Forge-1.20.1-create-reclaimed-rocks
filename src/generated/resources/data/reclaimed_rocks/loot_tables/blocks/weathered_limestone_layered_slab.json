@@ -11,7 +11,7 @@
               "add": false,
               "conditions": [
                 {
-                  "block": "reclaimed_rocks:dolomite_layered_slab",
+                  "block": "reclaimed_rocks:weathered_limestone_layered_slab",
                   "condition": "minecraft:block_state_property",
                   "properties": {
                     "type": "double"
@@ -25,7 +25,7 @@
               "function": "minecraft:explosion_decay"
             }
           ],
-          "name": "reclaimed_rocks:dolomite_layered_slab"
+          "name": "reclaimed_rocks:weathered_limestone_layered_slab"
         }
       ],
       "rolls": 1.0

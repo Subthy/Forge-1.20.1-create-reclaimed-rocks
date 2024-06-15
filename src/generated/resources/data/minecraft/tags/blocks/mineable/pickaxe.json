@@ -27,6 +27,7 @@
     "reclaimed_rocks:dolomite_paved_brick_wall",
     "reclaimed_rocks:dolomite_layered_slab",
     "reclaimed_rocks:dolomite_fancy_brick_slab",
+    "reclaimed_rocks:dolomite_paved_bricks",
     "reclaimed_rocks:weathered_limestone",
     "reclaimed_rocks:weathered_limestone_cobblestone",
     "reclaimed_rocks:weathered_limestone_bricks",
@@ -51,6 +52,8 @@
     "reclaimed_rocks:weathered_limestone_paved_brick_wall",
     "reclaimed_rocks:weathered_limestone_wall",
     "reclaimed_rocks:weathered_limestone_layered_slab",
+    "reclaimed_rocks:weathered_limestone_fancy_brick_slab",
+    "reclaimed_rocks:weathered_limestone_fancy_bricks",
     "reclaimed_rocks:gabbro",
     "reclaimed_rocks:gabbro_cobblestone",
     "reclaimed_rocks:gabbro_bricks",
@@ -74,6 +77,8 @@
     "reclaimed_rocks:gabbro_fancy_brick_wall",
     "reclaimed_rocks:gabbro_paved_brick_wall",
     "reclaimed_rocks:gabbro_wall",
-    "reclaimed_rocks:gabbro_layered_slab"
+    "reclaimed_rocks:gabbro_layered_slab",
+    "reclaimed_rocks:gabbro_fancy_brick_slab",
+    "reclaimed_rocks:gabbro_fancy_bricks"
   ]
 }
