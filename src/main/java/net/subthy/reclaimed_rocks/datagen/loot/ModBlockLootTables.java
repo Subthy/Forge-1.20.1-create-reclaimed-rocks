@@ -76,7 +76,7 @@ public class ModBlockLootTables extends BlockLootSubProvider {
         this.add(ModBlocks.WEATHERED_LIMESTONE_FANCY_BRICK_SLAB.get(),
                 block -> createSlabItemTable(ModBlocks.WEATHERED_LIMESTONE_FANCY_BRICK_SLAB.get()));
         this.add(ModBlocks.WEATHERED_LIMESTONE_LAYERED_SLAB.get(),
-                block -> createSlabItemTable(ModBlocks.DOLOMITE_LAYERED_SLAB.get()));
+                block -> createSlabItemTable(ModBlocks.WEATHERED_LIMESTONE_LAYERED_SLAB.get()));
             // GABBRO
         this.add(ModBlocks.GABBRO_SLAB.get(),
                 block -> createSlabItemTable(ModBlocks.GABBRO_SLAB.get()));
